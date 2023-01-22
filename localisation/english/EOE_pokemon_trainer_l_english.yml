@@ -96,7 +96,7 @@ triggered_pokemon_opinion_of_pokemon:0"Both pokemons"
  trait_EOE_type_advantage_desc:0 "These different pokemons have various abilities to assist production."
 
 EOEbuliding.20.name:0 "Pokemon Mobilization Order Main Menu"
- EOEbuliding.20.desc:0 "Pokemon拥有各种各样的特殊能力，这些特殊能力若运用得当，可以有效地辅助管理星球，增加星球生产。\n选择你需要显示的星球决议："
+ EOEbuliding.20.desc:0 "Pokemon have a variety of special abilities and utility. These special abilities can effectively assist in planet management and increase planet production.\nSelect the mobilization task you want to view:"
  EOEbuliding.20.a:0 "$decision_EOE_use_pokemon_a$"
  EOEbuliding.20.a.tooltip:0 "$decision_EOE_use_pokemon_a_desc$"
  EOEbuliding.20.b:0 "$decision_EOE_use_pokemon_b$"
