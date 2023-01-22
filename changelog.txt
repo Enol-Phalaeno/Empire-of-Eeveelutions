@@ -1,0 +1,5 @@
+2.0.3
+* Started the Gitub. Hopefully this will lead to better coordination and progress.
+* Added missing english description for Pokemnon Trainer origin
+* Converted stray Chinese in English Pokemon Trainer Mobilization Menu to English
+* Vampire Missile converted small slot to bring it in-line with other weapons. Range reduced to 150. This may change in the future...
