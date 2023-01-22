@@ -1,0 +1,9 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "war_system_sun_mesh"
+		file = "gfx/models/EOE_planets/EOE_heiaixing.mesh"
+		scale = 1.5
+	}
+
+}
