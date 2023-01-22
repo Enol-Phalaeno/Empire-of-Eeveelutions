@@ -1,0 +1,954 @@
+namespace = eoestartleader
+fleet_event = {
+	id = eoestartleader.1
+	title = "eoestartleader.1.name"
+	desc = {
+		trigger = {
+			NOT = {
+				owner = {
+					has_ethic = ethic_gestalt_consciousness
+				}
+			}
+		}
+		text = "eoestartleader.1.desc"
+	}
+	desc = {
+		trigger = {
+			owner = {
+				has_ethic = ethic_gestalt_consciousness
+			}
+		}
+		text = "eoestartleader.1.1.desc"
+	}
+	picture = GFX_evt_EOE_Canned_Espeon
+	show_sound = event_laboratory_sound
+	archaeology = yes
+	is_triggered_only = yes
+	immediate = {
+		from = {
+			set_site_progress_locked = yes
+		}
+	}
+	after = {
+		from = {
+			set_site_progress_locked = no
+		}
+	}
+	option = {
+		name = eoestartleader.1.a
+		large_artifact_reward = yes
+		owner = {
+			country_event = {
+				id = eoestartleader.2
+			}
+			add_modifier = {
+				modifier = Technical_information_of_Umbrella_Corporation
+				days = 7200
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.1.b
+		large_artifact_reward = yes
+		owner = {
+			add_modifier = {
+				modifier = EOE_Research_Sample
+				days = 7200
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.1.c
+		large_artifact_reward = yes
+	}
+}
+
+country_event = {
+	id = eoestartleader.2
+	title = "eoestartleader.2.name"
+	desc = "eoestartleader.2.desc"
+	picture = GFX_evt_EOE_Stagnant_cabin
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	option = {
+		name = eoestartleader.2.a
+		custom_tooltip = eoestartleader.2.a.tooltip
+		hidden_effect = {
+			owner = {
+				set_country_flag = start_leader_governor
+			}
+			create_leader = {
+				class = governor
+				species = owner_main_species
+				name = "EEVEE001"
+				skill = 5
+				traits = {
+					trait = leader_trait_governor_fairy_type_Empathy_network_1
+					trait = leader_trait_governor_dark_type_necessary_evil_1
+				}
+				event_leader = yes
+				leader_age_min = 0
+				leader_age_max = 0
+			}
+			last_created_leader = {
+				change_leader_portrait = EOE023
+				set_is_female = no
+			}
+		}
+		country_event = {
+			id = eoestartleader.3
+		}
+	}
+	option = {
+		name = eoestartleader.2.b
+		custom_tooltip = eoestartleader.2.b.tooltip
+		hidden_effect = {
+			owner = {
+				set_country_flag = start_leader_governor
+			}
+			create_leader = {
+				class = governor
+				species = owner_main_species
+				name = "EEVEE002"
+				skill = 5
+				traits = {
+					trait = leader_trait_governor_ice_type_nano_builder_1
+					trait = leader_trait_governor_grass_type_Plants_vs_Aliens_1
+				}
+				event_leader = yes
+				leader_age_min = 0
+				leader_age_max = 0
+			}
+			last_created_leader = {
+				change_leader_portrait = EOE023
+				set_is_female = no
+			}
+		}
+		country_event = {
+			id = eoestartleader.3
+		}
+	}
+	option = {
+		name = eoestartleader.2.c
+		custom_tooltip = eoestartleader.2.c.tooltip
+		hidden_effect = {
+			owner = {
+				set_country_flag = start_leader_scientist
+			}
+			create_leader = {
+				class = scientist
+				species = owner_main_species
+				name = "EEVEE003"
+				skill = 5
+				traits = {
+					trait = leader_trait_scientist_psychic_type_psionic_benefits_1
+					trait = leader_trait_scientist_water_type_Gene_Mastery_1
+				}
+				event_leader = yes
+				leader_age_min = 0
+				leader_age_max = 0
+			}
+			last_created_leader = {
+				change_leader_portrait = EOE023
+				set_is_female = no
+			}
+		}
+		country_event = {
+			id = eoestartleader.3
+		}
+	}
+	option = {
+		name = eoestartleader.2.d
+		custom_tooltip = eoestartleader.2.d.tooltip
+		hidden_effect = {
+			owner = {
+				set_country_flag = start_leader_admiral
+			}
+			create_leader = {
+				class = admiral
+				species = owner_main_species
+				name = "EEVEE004"
+				skill = 5
+				traits = {
+					trait = leader_trait_water_type_Organic_Symbiont_1
+					trait = leader_trait_fire_type_Instantaneous_entropy_increase_1
+					trait = leader_trait_electric_type_Fundamental_Force_Interference_1
+					trait = leader_trait_psychic_type_Psionic_detection_battle_system_1
+				}
+				event_leader = yes
+				leader_age_min = 0
+				leader_age_max = 0
+			}
+			last_created_leader = {
+				change_leader_portrait = EOE023
+				set_is_female = no
+			}
+		}
+		country_event = {
+			id = eoestartleader.3
+		}
+	}
+	option = {
+		name = eoestartleader.2.e
+		custom_tooltip = eoestartleader.2.e.tooltip
+		hidden_effect = {
+			owner = {
+				set_country_flag = start_leader_general
+			}
+			create_leader = {
+				class = general
+				species = owner_main_species
+				name = "EEVEE005"
+				skill = 5
+				traits = {
+					trait = leader_trait_dark_type_Dark_Templar_1
+					trait = leader_trait_electric_type_Tesla_Commander_1
+					trait = leader_trait_grass_type_Production_Construction_Corps_1
+					trait = leader_trait_fairy_type_Shared_glory_1
+				}
+				event_leader = yes
+				leader_age_min = 0
+				leader_age_max = 0
+			}
+			last_created_leader = {
+				change_leader_portrait = EOE023
+				set_is_female = no
+			}
+		}
+		country_event = {
+			id = eoestartleader.3
+		}
+	}
+}
+
+country_event = {
+	id = eoestartleader.3
+	title = "eoestartleader.3.name"
+	desc = "eoestartleader.3.desc"
+	picture = GFX_evt_EOE_Stagnant_cabin
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	option = {
+		name = eoestartleader.3.a
+		trigger = {
+			NOT = {
+				has_ethic = ethic_gestalt_consciousness
+			}
+		}
+		owner = {
+			country_event = {
+				id = eoestartleader.4
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.3.b
+		last_created_leader = {
+			add_trait = leader_trait_EOE_Organic_Machine_Intelligence
+		}
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eoestartleader.4
+	title = "eoestartleader.4.name"
+	desc = "eoestartleader.4.desc"
+	picture = GFX_evt_EOE_Brain_in_can
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	option = {
+		name = eoestartleader.4.a
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		last_created_leader = {
+			add_trait = leader_trait_retired_fleet_officer
+		}
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.5
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.b
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_army_veteran
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.c
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_bureaucrat
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.d
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_intellectual
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.e
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_architectural_interest
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.g
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_governor
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_agrarian_upbringing
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.i
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_materials
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.j
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_propulsion
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.k
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_voidcraft
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.l
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_industry
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.m
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_field_manipulation
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.n
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_particles
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.o
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_computing
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.p
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_new_worlds
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.q
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_statecraft
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	######核她娘#############################################################
+	option = {
+		name = eoestartleader.4.r
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		custom_tooltip = "eoestartleader.4.r.tooltip"
+		last_created_leader = {
+			add_trait = leader_trait_expertise_biology
+			set_leader_flag = EOE_leader_elena
+		}
+		hidden_effect = {
+			last_created_leader = {
+				set_is_female = yes
+			}
+			save_global_event_target_as = EOE_elena
+			country_event = {
+				id = eoestartleader.7
+			}
+			country_event = {
+				id = eoestartleader.11
+				days = 3600
+				random = 225
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.s
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_expertise_military_theory
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.h
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_scientist
+			}
+		}
+		last_created_leader = {
+			add_trait = leader_trait_archaeologist
+		}
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.5
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.t
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_admiral
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_fleet_logistician
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.u
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_admiral
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_aggressive
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.v
+		custom_tooltip = eoestartleader.4.v.tootip
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_admiral
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_cautious
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.w
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_admiral
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_unyielding
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.x
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_admiral
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_gale_speed
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.y
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_general
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_glory_seeker
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.z
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_general
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_charismatic
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.aa
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_general
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_army_logistician
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.4.ab
+		trigger = {
+			owner = {
+				has_country_flag = start_leader_general
+			}
+		}
+		owner = {
+			last_created_leader = {
+				add_trait = leader_trait_restrained
+			}
+			hidden_effect = {
+				country_event = {
+					id = eoestartleader.5
+				}
+			}
+		}
+	}
+}
+
+######我他喵再刷一遍头像我就不信还给我随机（恼）
+country_event = {
+	id = eoestartleader.5
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		last_created_leader = {
+			change_leader_portrait = EOE023
+			set_name = "EOE_fictional_person"
+		}
+		country_event = {
+			id = eoestartleader.9
+		}
+	}
+}
+
+######机器人刷头像
+country_event = {
+	id = eoestartleader.6
+	is_triggered_only = yes
+	hide_window = yes
+	immediate = {
+		last_created_leader = {
+			change_leader_portrait = EOE023
+		}
+		country_event = {
+			id = eoestartleader.10
+		}
+	}
+}
+
+######elena刷头像
+country_event = {
+	id = eoestartleader.7
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		last_created_leader = {
+			change_leader_portrait = EOE081
+			set_name = "Elena"
+		}
+		country_event = {
+			id = eoestartleader.8
+		}
+	}
+}
+
+#####Elena打招呼
+country_event = {
+	id = eoestartleader.8
+	title = "eoestartleader.8.name"
+	desc = "eoestartleader.8.desc"
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	diplomatic = yes
+	picture_event_data = {
+		room = EOE_Elena_room
+	}
+	option = {
+		name = eoestartleader.8.a
+	}
+}
+
+######新领袖打招呼
+country_event = {
+	id = eoestartleader.9
+	title = "eoestartleader.8.name"
+	desc = "eoestartleader.8.desc"
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	diplomatic = yes
+	picture_event_data = {
+		room = EOE_fictional_person_room
+	}
+	option = {
+		name = eoestartleader.8.a
+	}
+}
+
+######机器人打招呼
+country_event = {
+	id = eoestartleader.10
+	title = "eoestartleader.10.name"
+	desc = "eoestartleader.10.desc"
+	show_sound = event_laboratory_sound
+	is_triggered_only = yes
+	diplomatic = yes
+	picture_event_data = {
+		room = EOE_fictional_person_room
+	}
+	option = {
+		name = eoestartleader.10.a
+	}
+}
+
+#####虚构之人发现身世
+country_event = {
+	id = eoestartleader.11
+	title = "eoestartleader.11.name"
+	desc = "eoestartleader.11.desc"
+	is_triggered_only = yes
+	picture = GFX_evt_archaeological_dig
+	trigger = {
+		any_owned_leader = {
+			has_leader_flag = EOE_leader_elena
+		}
+	}
+	immediate = {
+		every_owned_leader = {
+			if = {
+				limit = {
+					has_leader_flag = EOE_leader_elena
+				}
+				add_trait = leader_trait_paranoid
+			}
+		}
+	}
+	option = {
+		name = eoestartleader.11.a
+		#通知有关人员，允许启用备用方案
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.12
+				days = 5
+				random = 1
+				#540 180
+			}
+		}
+	}
+}
+
+#####对话   移除多疑，添加 leader_trait_adaptable
+#####孩他妈想跟您谈一谈
+country_event = {
+	id = eoestartleader.12
+	title = "eoestartleader.12.name"
+	desc = "eoestartleader.12.desc"
+	show_sound = advisor_notification_incoming_transmission
+	picture = GFX_evt_throne_room
+	is_triggered_only = yes
+	option = {
+		name = eoestartleader.12.a
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.13
+			}
+		}
+	}
+}
+
+#####孩他爹已经告诉了孩他妈身世。 XX已经告诉了......  所以，我的记忆从...开始才是真实的？  我的童年，我的家人，我的朋友，我的爱人，都只不过是被安排好的剧情。我的人生也只是一部精妙的剧本？
+country_event = {
+	id = eoestartleader.13
+	title = "eoestartleader.13.name"
+	desc = "eoestartleader.13.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	picture_event_data = {
+		room = EOE_Elena_room
+	}
+	option = {
+		name = eoestartleader.13.a
+		hidden_effect = {
+			country_event = {
+				id = eoestartleader.14
+			}
+		}
+		#很抱歉，但我们需要你的能力
+	}
+}
+
+country_event = {
+	id = eoestartleader.14
+	title = "eoestartleader.14.name"
+	desc = "eoestartleader.14.desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	picture_event_data = {
+		room = EOE_Elena_room
+	}
+	option = {
+		name = eoestartleader.14.a
+		#接下来的剧本将由我们的超级英雄亲自谱写
+		hidden_effect = {
+			every_owned_leader = {
+				if = {
+					limit = {
+						has_leader_flag = EOE_leader_elena
+					}
+					remove_trait = leader_trait_paranoid
+					add_trait = leader_trait_adaptable
+				}
+			}
+		}
+	}
+}
