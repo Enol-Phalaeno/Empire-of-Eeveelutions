@@ -1,0 +1,957 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+# ai_categories = { survey engineering physics society }
+# ai_weight - standard drop weight modifier, scope = country
+
+###########
+# Balance #
+###########
+#effects on research traits
+@categorybonus = 0.15
+
+####################
+# Scientist Traits #
+####################
+
+#leader_trait_careful = {
+#	cost = 1
+#	modification = no
+#	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_careful.dds"
+#	modifier = {
+#		ship_anomaly_fail_risk = -0.10
+#	}
+#	leader_trait = yes
+#	leader_class = { scientist }
+#	opposites = { "leader_trait_carefree" }
+#
+#	ai_categories = {
+#		survey
+#	}
+#
+#	ai_weight = {
+#		weight = 50
+#	}
+#}
+
+leader_trait_EOE_scientist_psionic = {
+	cost = 0
+	icon = "gfx/interface/icons/traits/trait_psionic_species.dds"
+	modifier = {
+		all_technology_research_speed = 100
+		science_ship_survey_speed = 10
+		ship_archaeological_site_clues_add = 100
+		ship_anomaly_research_speed_mult = 10
+		species_leader_exp_gain = 0.5
+		ship_disengage_chance_mult = 10
+		ship_speed_mult = 10
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+}
+
+leader_trait_scientist_psychic_type_psionic_benefits_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/psychic_type.png"
+	modifier = {
+		all_technology_research_speed = 0.3
+		science_ship_survey_speed = 0.50
+		ship_archaeological_site_clues_add = 1
+		ship_anomaly_research_speed_mult = 0.50
+		category_psionics_research_speed_mult = 0.20
+		category_field_manipulation_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+
+	initial = no
+	randomized = no
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+
+leader_trait_scientist_ice_type_Particle_Mastery_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		category_materials_research_speed_mult = 0.20
+		category_particles_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_ice_type_Particle_Mastery_2" "leader_trait_scientist_ice_type_Particle_Mastery_3" "leader_trait_scientist_ice_type_Particle_Mastery_4" "leader_trait_scientist_ice_type_Particle_Mastery_5" }
+
+    leader_potential_add = {
+	from = {
+		OR = {
+				any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+				any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+				}
+			}
+		}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_ice_type_Particle_Mastery_2 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		 
+		category_materials_research_speed_mult = 0.20
+		category_particles_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_ice_type_Particle_Mastery_1" "leader_trait_scientist_ice_type_Particle_Mastery_3" "leader_trait_scientist_ice_type_Particle_Mastery_4" "leader_trait_scientist_ice_type_Particle_Mastery_5" }
+
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_ice_type_Particle_Mastery_3 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		 
+		category_materials_research_speed_mult = 0.20
+		category_particles_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_ice_type_Particle_Mastery_2" "leader_trait_scientist_ice_type_Particle_Mastery_1" "leader_trait_scientist_ice_type_Particle_Mastery_4" "leader_trait_scientist_ice_type_Particle_Mastery_5" }
+
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_ice_type_Particle_Mastery_4 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		 
+		category_materials_research_speed_mult = 0.20
+		category_particles_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_ice_type_Particle_Mastery_2" "leader_trait_scientist_ice_type_Particle_Mastery_3" "leader_trait_scientist_ice_type_Particle_Mastery_1" "leader_trait_scientist_ice_type_Particle_Mastery_5" }
+
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_ice_type_Particle_Mastery_5 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		 
+		category_materials_research_speed_mult = 0.20
+		category_particles_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_ice_type_Particle_Mastery_2" "leader_trait_scientist_ice_type_Particle_Mastery_3" "leader_trait_scientist_ice_type_Particle_Mastery_4" "leader_trait_scientist_ice_type_Particle_Mastery_1" }
+
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_dark_type_night_owl_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		all_technology_research_speed = 0.1
+        category_statecraft_research_speed_mult = 0.20
+		category_military_theory_research_speed_mult = 0.20
+
+		
+	}
+	self_modifier = {
+		leader_age = -5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_dark_type_night_owl_2" "leader_trait_scientist_dark_type_night_owl_3" "leader_trait_scientist_dark_type_night_owl_4" "leader_trait_scientist_dark_type_night_owl_5" }
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_dark_type_night_owl_2 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		all_technology_research_speed = 0.1
+        category_statecraft_research_speed_mult = 0.20
+		category_military_theory_research_speed_mult = 0.20
+
+		
+	}
+	self_modifier = {
+		leader_age = -5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_dark_type_night_owl_1" "leader_trait_scientist_dark_type_night_owl_3" "leader_trait_scientist_dark_type_night_owl_4" "leader_trait_scientist_dark_type_night_owl_5" }
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_dark_type_night_owl_3 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		all_technology_research_speed = 0.1
+        category_statecraft_research_speed_mult = 0.20
+		category_military_theory_research_speed_mult = 0.20
+
+		
+	}
+	self_modifier = {
+		leader_age = -5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_dark_type_night_owl_2" "leader_trait_scientist_dark_type_night_owl_1" "leader_trait_scientist_dark_type_night_owl_4" "leader_trait_scientist_dark_type_night_owl_5" }
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_dark_type_night_owl_4 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		all_technology_research_speed = 0.1
+        category_statecraft_research_speed_mult = 0.20
+		category_military_theory_research_speed_mult = 0.20
+
+		
+	}
+	self_modifier = {
+		leader_age = -5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_dark_type_night_owl_2" "leader_trait_scientist_dark_type_night_owl_3" "leader_trait_scientist_dark_type_night_owl_1" "leader_trait_scientist_dark_type_night_owl_5" }
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_dark_type_night_owl_5 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		all_technology_research_speed = 0.1
+        category_statecraft_research_speed_mult = 0.20
+		category_military_theory_research_speed_mult = 0.20
+
+		
+	}
+	self_modifier = {
+		leader_age = -5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_dark_type_night_owl_2" "leader_trait_scientist_dark_type_night_owl_3" "leader_trait_scientist_dark_type_night_owl_4" "leader_trait_scientist_dark_type_night_owl_1" }
+    leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_dark_type_mega_evolution_swarm } 
+					}
+				}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_water_type_Gene_Mastery_2 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/water_type.png"
+	modifier = {
+		 
+		category_new_worlds_research_speed_mult = 0.20
+		category_biology_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_water_type_Gene_Mastery_1" "leader_trait_scientist_water_type_Gene_Mastery_3" "leader_trait_scientist_water_type_Gene_Mastery_4" "leader_trait_scientist_water_type_Gene_Mastery_5" }
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_water_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_water_type_Gene_Mastery_3 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/water_type.png"
+	modifier = {
+		 
+		category_new_worlds_research_speed_mult = 0.20
+		category_biology_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_water_type_Gene_Mastery_2" "leader_trait_scientist_water_type_Gene_Mastery_1" "leader_trait_scientist_water_type_Gene_Mastery_4" "leader_trait_scientist_water_type_Gene_Mastery_5" }
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_water_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_water_type_Gene_Mastery_4 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/water_type.png"
+	modifier = {
+		 
+		category_new_worlds_research_speed_mult = 0.20
+		category_biology_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_water_type_Gene_Mastery_2" "leader_trait_scientist_water_type_Gene_Mastery_3" "leader_trait_scientist_water_type_Gene_Mastery_1" "leader_trait_scientist_water_type_Gene_Mastery_5" }
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_water_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_water_type_Gene_Mastery_5 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/water_type.png"
+	modifier = {
+		 
+		category_new_worlds_research_speed_mult = 0.20
+		category_biology_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_water_type_Gene_Mastery_2" "leader_trait_scientist_water_type_Gene_Mastery_3" "leader_trait_scientist_water_type_Gene_Mastery_4" "leader_trait_scientist_water_type_Gene_Mastery_1" }
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_water_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_water_type_Gene_Mastery_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/water_type.png"
+	modifier = {
+		 
+		category_new_worlds_research_speed_mult = 0.20
+		category_biology_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_water_type_Gene_Mastery_2" "leader_trait_scientist_water_type_Gene_Mastery_3" "leader_trait_scientist_water_type_Gene_Mastery_4" "leader_trait_scientist_water_type_Gene_Mastery_5" }
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_water_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_electric_type_Energy_Mastery_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/electric_type.png"
+	modifier = {
+		 
+		category_industry_research_speed_mult = 0.20
+		category_computing_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_electric_type_Energy_Mastery_2" "leader_trait_scientist_electric_type_Energy_Mastery_3" "leader_trait_scientist_electric_type_Energy_Mastery_4" "leader_trait_scientist_electric_type_Energy_Mastery_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_electric_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_electric_type_Energy_Mastery_2 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/electric_type.png"
+	modifier = {
+		 
+		category_industry_research_speed_mult = 0.20
+		category_computing_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_electric_type_Energy_Mastery_1" "leader_trait_scientist_electric_type_Energy_Mastery_3" "leader_trait_scientist_electric_type_Energy_Mastery_4" "leader_trait_scientist_electric_type_Energy_Mastery_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_electric_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_electric_type_Energy_Mastery_3 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/electric_type.png"
+	modifier = {
+		 
+		category_industry_research_speed_mult = 0.20
+		category_computing_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_electric_type_Energy_Mastery_2" "leader_trait_scientist_electric_type_Energy_Mastery_1" "leader_trait_scientist_electric_type_Energy_Mastery_4" "leader_trait_scientist_electric_type_Energy_Mastery_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_electric_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_electric_type_Energy_Mastery_4 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/electric_type.png"
+	modifier = {
+		 
+		category_industry_research_speed_mult = 0.20
+		category_computing_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_electric_type_Energy_Mastery_2" "leader_trait_scientist_electric_type_Energy_Mastery_3" "leader_trait_scientist_electric_type_Energy_Mastery_1" "leader_trait_scientist_electric_type_Energy_Mastery_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_electric_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_electric_type_Energy_Mastery_5 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/electric_type.png"
+	modifier = {
+		 
+		category_industry_research_speed_mult = 0.20
+		category_computing_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_electric_type_Energy_Mastery_2" "leader_trait_scientist_electric_type_Energy_Mastery_3" "leader_trait_scientist_electric_type_Energy_Mastery_4" "leader_trait_scientist_electric_type_Energy_Mastery_1" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_electric_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_fire_type_reacter_calibration_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fire_type.png"
+	modifier = {
+		 
+		category_voidcraft_research_speed_mult = 0.20
+		category_propulsion_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_fire_type_reacter_calibration_2" "leader_trait_scientist_fire_type_reacter_calibration_3" "leader_trait_scientist_fire_type_reacter_calibration_4" "leader_trait_scientist_fire_type_reacter_calibration_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_fire_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_fire_type_reacter_calibration_5 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fire_type.png"
+	modifier = {
+		 
+		category_voidcraft_research_speed_mult = 0.20
+		category_propulsion_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_fire_type_reacter_calibration_2" "leader_trait_scientist_fire_type_reacter_calibration_3" "leader_trait_scientist_fire_type_reacter_calibration_4" "leader_trait_scientist_fire_type_reacter_calibration_1" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_fire_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_fire_type_reacter_calibration_2 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fire_type.png"
+	modifier = {
+		 
+		category_voidcraft_research_speed_mult = 0.20
+		category_propulsion_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_fire_type_reacter_calibration_1" "leader_trait_scientist_fire_type_reacter_calibration_3" "leader_trait_scientist_fire_type_reacter_calibration_4" "leader_trait_scientist_fire_type_reacter_calibration_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_fire_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_fire_type_reacter_calibration_3 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fire_type.png"
+	modifier = {
+		 
+		category_voidcraft_research_speed_mult = 0.20
+		category_propulsion_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_fire_type_reacter_calibration_2" "leader_trait_scientist_fire_type_reacter_calibration_1" "leader_trait_scientist_fire_type_reacter_calibration_4" "leader_trait_scientist_fire_type_reacter_calibration_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_fire_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_scientist_fire_type_reacter_calibration_4 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fire_type.png"
+	modifier = {
+		 
+		category_voidcraft_research_speed_mult = 0.20
+		category_propulsion_research_speed_mult = 0.20
+
+		
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = { "leader_trait_scientist_fire_type_reacter_calibration_2" "leader_trait_scientist_fire_type_reacter_calibration_3" "leader_trait_scientist_fire_type_reacter_calibration_1" "leader_trait_scientist_fire_type_reacter_calibration_5" }
+
+    leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_fire_type_mega_evolution
+			}
+			}
+			}
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+

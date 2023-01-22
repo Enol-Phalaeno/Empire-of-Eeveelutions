@@ -1,0 +1,140 @@
+leader_trait_EOE_Plant_master = { #秋葵生物专精
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		species_leader_exp_gain = 2
+		category_biology_research_speed_mult = 0.5
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	ai_categories = {
+		society
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+leader_trait_scientist_nuclear_type = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/nuclear_type.png"
+	immortal_leaders = no
+	modifier = {
+		all_technology_research_speed = 0.2
+	}
+	self_modifier = {
+		species_leader_exp_gain = 2
+		leader_skill_levels = 2
+		leader_age = -50
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+leader_trait_scientist_nuclear_type_cured = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/nuclear_type.png"
+	immortal_leaders = no
+	modifier = {
+		all_technology_research_speed = 0.2 #削了，因为超能系超进化给加强
+	}
+	self_modifier = {
+		species_leader_exp_gain = 2
+		leader_skill_levels = 2
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	ai_categories = {
+		survey
+		physics
+		society
+		engineering
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+
+
+leader_trait_scientist_master_particles = {
+	cost = 1
+
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_particles.dds"
+	modifier = {
+		category_particles_research_speed_mult = 0.3
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	opposites = {
+		"leader_trait_expertise_materials"
+		"leader_trait_expertise_propulsion"
+		"leader_trait_expertise_voidcraft"
+		"leader_trait_expertise_industry"
+		"leader_trait_expertise_field_manipulation"
+		"leader_trait_expertise_particles"
+		"leader_trait_expertise_psionics"
+		"leader_trait_expertise_computing"
+		"leader_trait_expertise_new_worlds"
+		"leader_trait_expertise_statecraft"
+		"leader_trait_expertise_military_theory"
+		"leader_trait_expertise_biology"
+	}
+	initial = no
+	randomized = no
+
+	ai_categories = {
+		physics
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+leader_trait_EOE_Mind_Controlled = { #思想钢印
+	cost = 0
+
+	icon = "gfx/interface/icons/traits/EOET2.png"
+	modifier = {
+		all_technology_research_speed = -1
+		science_ship_survey_speed = 0.1
+		ship_anomaly_research_speed_mult = 0.1
+	}
+	self_modifier = {
+		leaders_upkeep_mult = -10
+		species_leader_exp_gain = -10
+	}
+	leader_trait = { scientist }
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	ai_categories = {
+		society
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+}

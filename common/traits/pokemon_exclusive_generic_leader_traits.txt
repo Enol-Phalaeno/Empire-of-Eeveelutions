@@ -1,0 +1,16 @@
+leader_trait_EOE_Organic_Machine_Intelligence = {
+	cost = 0
+
+	icon = "gfx/interface/icons/traits/trait_machine_unit.dds"
+	modifier = {
+		leaders_upkeep_mult = -10
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.25
+		leader_skill_levels = 1
+	}
+	leader_class = { admiral scientist general governor }
+	leader_trait = all
+	initial = no
+	randomized = no
+}

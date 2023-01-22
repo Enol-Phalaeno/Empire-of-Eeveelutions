@@ -1,0 +1,542 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+###################
+# Governor Traits #
+###################
+
+leader_trait_EOE_governor_psionic = {
+	cost = 0
+	icon = "gfx/interface/icons/traits/trait_psionic_species.dds"
+	modifier = {
+		planet_buildings_upkeep_mult = -0.05
+		planet_districts_upkeep_mult = -0.05
+		planet_jobs_unity_produces_mult = 0.05
+		planet_army_build_speed_mult = 0.05
+		army_defense_damage_mult = 0.05
+		armies_cost_mult = -0.05
+		planet_crime_add = -15
+		planet_jobs_produces_mult = 0.05
+		species_leader_exp_gain = 0.5
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = no
+}
+
+leader_trait_governor_fairy_type_Empathy_network_1 = {
+	cost = 0
+	icon = "gfx/interface/icons/EeveelutionTypes/fairy_type.png"
+	modifier = {
+		planet_stability_add = 25
+		planet_jobs_unity_produces_mult = 0.20
+		planet_crime_add = -40
+		
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.50
+		leader_skill_levels = 3
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+
+	initial = no
+	randomized = no
+	}
+
+leader_trait_governor_fairy_type_Cloud_brain_services_1 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/fairy_type.png"
+	modifier = {
+		planet_stability_add = 25
+		planet_jobs_unity_produces_mult = 0.20
+		planet_crime_no_happiness_add = -40
+	}
+	self_modifier = {
+		species_leader_exp_gain = 0.50
+		leader_skill_levels = 3
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+
+	initial = no
+	randomized = no
+	}
+
+
+
+leader_trait_governor_dark_type_necessary_evil_1 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_slave_produces_mult = 0.25
+		planet_jobs_worker_produces_mult = 0.15
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_necessary_evil_2" "leader_trait_governor_dark_type_necessary_evil_3" "leader_trait_governor_dark_type_necessary_evil_4" "leader_trait_governor_dark_type_necessary_evil_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution
+			}
+			}
+			}
+			}
+
+leader_trait_governor_dark_type_necessary_evil_2 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_slave_produces_mult = 0.25
+		planet_jobs_worker_produces_mult = 0.15
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_necessary_evil_1" "leader_trait_governor_dark_type_necessary_evil_3" "leader_trait_governor_dark_type_necessary_evil_4" "leader_trait_governor_dark_type_necessary_evil_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_necessary_evil_3 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_slave_produces_mult = 0.25
+		planet_jobs_worker_produces_mult = 0.15
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_necessary_evil_2" "leader_trait_governor_dark_type_necessary_evil_1" "leader_trait_governor_dark_type_necessary_evil_4" "leader_trait_governor_dark_type_necessary_evil_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_necessary_evil_4 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_slave_produces_mult = 0.25
+		planet_jobs_worker_produces_mult = 0.15
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_necessary_evil_2" "leader_trait_governor_dark_type_necessary_evil_3" "leader_trait_governor_dark_type_necessary_evil_1" "leader_trait_governor_dark_type_necessary_evil_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_necessary_evil_5 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_slave_produces_mult = 0.25
+		planet_jobs_worker_produces_mult = 0.15
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_necessary_evil_2" "leader_trait_governor_dark_type_necessary_evil_3" "leader_trait_governor_dark_type_necessary_evil_4" "leader_trait_governor_dark_type_necessary_evil_1"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution
+			}
+			}
+			}
+			}
+
+			
+leader_trait_governor_dark_type_Self_cognition_control_1 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_complex_drone_produces_mult = 0.1
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_Self_cognition_control_2" "leader_trait_governor_dark_type_Self_cognition_control_3" "leader_trait_governor_dark_type_Self_cognition_control_4" "leader_trait_governor_dark_type_Self_cognition_control_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution_swarm
+			}
+			}
+			}
+			}
+
+leader_trait_governor_dark_type_Self_cognition_control_2 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+		planet_jobs_complex_drone_produces_mult = 0.1
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_Self_cognition_control_1" "leader_trait_governor_dark_type_Self_cognition_control_3" "leader_trait_governor_dark_type_Self_cognition_control_4" "leader_trait_governor_dark_type_Self_cognition_control_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution_swarm
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_Self_cognition_control_3 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_complex_drone_produces_mult = 0.1
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_Self_cognition_control_2" "leader_trait_governor_dark_type_Self_cognition_control_1" "leader_trait_governor_dark_type_Self_cognition_control_4" "leader_trait_governor_dark_type_Self_cognition_control_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution_swarm
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_Self_cognition_control_4 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_complex_drone_produces_mult = 0.1
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_Self_cognition_control_2" "leader_trait_governor_dark_type_Self_cognition_control_3" "leader_trait_governor_dark_type_Self_cognition_control_1" "leader_trait_governor_dark_type_Self_cognition_control_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution_swarm
+			}
+			}
+			}
+			}
+			
+leader_trait_governor_dark_type_Self_cognition_control_5 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/dark_type.png"
+	modifier = {
+	    planet_jobs_complex_drone_produces_mult = 0.1
+		planet_jobs_simple_drone_produces_mult = 0.2
+		planet_army_build_speed_mult = 0.2
+		armies_cost_mult = -0.2
+
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_dark_type_Self_cognition_control_2" "leader_trait_governor_dark_type_Self_cognition_control_3" "leader_trait_governor_dark_type_Self_cognition_control_4" "leader_trait_governor_dark_type_Self_cognition_control_1"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_dark_type_mega_evolution_swarm
+			}
+			}
+			}
+			}
+
+leader_trait_governor_ice_type_nano_builder_1 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+		planet_buildings_cost_mult = -0.2
+		planet_districts_cost_mult = -0.2
+		planet_building_build_speed_mult = 0.3
+		starbase_shipyard_build_speed_mult = 0.3
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_ice_type_nano_builder_2" "leader_trait_governor_ice_type_nano_builder_3" "leader_trait_governor_ice_type_nano_builder_4" "leader_trait_governor_ice_type_nano_builder_5"}
+
+	leader_potential_add = {
+	from = {
+		OR = {
+				any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+				any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+		}
+		}
+	}
+}
+
+	
+leader_trait_governor_ice_type_nano_builder_2 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+	        planet_buildings_cost_mult = -0.2
+		planet_districts_cost_mult = -0.2
+		planet_building_build_speed_mult = 0.3
+		starbase_shipyard_build_speed_mult = 0.3
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_ice_type_nano_builder_1" "leader_trait_governor_ice_type_nano_builder_3" "leader_trait_governor_ice_type_nano_builder_4" "leader_trait_governor_ice_type_nano_builder_5"}
+
+	leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+			}
+			}
+		}
+	}
+
+
+leader_trait_governor_ice_type_nano_builder_3 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+	        planet_buildings_cost_mult = -0.2
+		planet_districts_cost_mult = -0.2
+		planet_building_build_speed_mult = 0.3
+		starbase_shipyard_build_speed_mult = 0.3
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_ice_type_nano_builder_2" "leader_trait_governor_ice_type_nano_builder_1" "leader_trait_governor_ice_type_nano_builder_4" "leader_trait_governor_ice_type_nano_builder_5"}
+
+	leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+			}
+			}
+		}
+	}
+
+leader_trait_governor_ice_type_nano_builder_4 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+	        planet_buildings_cost_mult = -0.2
+		planet_districts_cost_mult = -0.2
+		planet_building_build_speed_mult = 0.3
+		starbase_shipyard_build_speed_mult = 0.3
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_ice_type_nano_builder_2" "leader_trait_governor_ice_type_nano_builder_3" "leader_trait_governor_ice_type_nano_builder_1" "leader_trait_governor_ice_type_nano_builder_5"}
+
+	leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+			}
+			}
+		}
+	}
+
+leader_trait_governor_ice_type_nano_builder_5 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/ice_type.png"
+	modifier = {
+	        planet_buildings_cost_mult = -0.2
+		planet_districts_cost_mult = -0.2
+		planet_building_build_speed_mult = 0.3
+		starbase_shipyard_build_speed_mult = 0.3
+		starbase_shipyard_build_cost_mult = -0.15
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_ice_type_nano_builder_2" "leader_trait_governor_ice_type_nano_builder_3" "leader_trait_governor_ice_type_nano_builder_4" "leader_trait_governor_ice_type_nano_builder_1"}
+
+	leader_potential_add = {
+		from = {
+			OR = {
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution } 
+					any_owned_pop =  {pop_has_trait = trait_ice_type_mega_evolution_swarm } 
+			}
+			}
+		}
+	}
+
+leader_trait_governor_grass_type_Plants_vs_Aliens_1 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		pop_defense_armies_add = 1
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_grass_type_Plants_vs_Aliens_2" "leader_trait_governor_grass_type_Plants_vs_Aliens_3" "leader_trait_governor_grass_type_Plants_vs_Aliens_4" "leader_trait_governor_grass_type_Plants_vs_Aliens_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_grass_type_mega_evolution
+			}
+			}
+			}
+}
+
+leader_trait_governor_grass_type_Plants_vs_Aliens_2 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		pop_defense_armies_add = 1
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_grass_type_Plants_vs_Aliens_1" "leader_trait_governor_grass_type_Plants_vs_Aliens_3" "leader_trait_governor_grass_type_Plants_vs_Aliens_4" "leader_trait_governor_grass_type_Plants_vs_Aliens_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_grass_type_mega_evolution
+			}
+			}
+			}
+}
+leader_trait_governor_grass_type_Plants_vs_Aliens_3 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		pop_defense_armies_add = 1
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_grass_type_Plants_vs_Aliens_2" "leader_trait_governor_grass_type_Plants_vs_Aliens_1" "leader_trait_governor_grass_type_Plants_vs_Aliens_4" "leader_trait_governor_grass_type_Plants_vs_Aliens_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_grass_type_mega_evolution
+			}
+			}
+			}
+}
+leader_trait_governor_grass_type_Plants_vs_Aliens_4 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		pop_defense_armies_add = 1
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_grass_type_Plants_vs_Aliens_2" "leader_trait_governor_grass_type_Plants_vs_Aliens_3" "leader_trait_governor_grass_type_Plants_vs_Aliens_1" "leader_trait_governor_grass_type_Plants_vs_Aliens_5"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_grass_type_mega_evolution
+			}
+			}
+			}
+}
+leader_trait_governor_grass_type_Plants_vs_Aliens_5 = {
+	cost = 0
+
+	icon = "gfx/interface/icons/EeveelutionTypes/grass_type.png"
+	modifier = {
+		pop_defense_armies_add = 1
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_governor_grass_type_Plants_vs_Aliens_2" "leader_trait_governor_grass_type_Plants_vs_Aliens_3" "leader_trait_governor_grass_type_Plants_vs_Aliens_4" "leader_trait_governor_grass_type_Plants_vs_Aliens_1"}
+
+	leader_potential_add = {
+	from = {
+				any_owned_pop = {
+				pop_has_trait = trait_grass_type_mega_evolution
+			}
+			}
+			}
+}
+
+					
