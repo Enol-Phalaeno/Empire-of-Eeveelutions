@@ -1,6 +1,6 @@
 weapon_component_template = {
 	key = "EOE_MISSILE_fire_vampire"
-	size = torpedo
+	size = small
 	
 	icon = "GFX_EOE_fire_vampire"
 	icon_frame = 1
@@ -9,13 +9,13 @@ weapon_component_template = {
 	damage = { min = 60 max = 100 }
 	windup = { min = 5 max = 15 }
 	total_fire_time = 10
-	range = 300
+	range = 150
 	accuracy = 1.0
 	missile_speed = 17 # 375 -- apparently, the game doesn't auto-convert speed for non-vanilla components
 	missile_evasion = 0.90
 	missile_health = 15
 	missile_shield = 0
-	missile_retarget_range = 300
+	missile_retarget_range = 150
 	power = -45
 	hull_damage = 2
 	armor_damage = 2
