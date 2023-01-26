@@ -297,16 +297,16 @@ ai_weight = {
 				food = 0.1
 			}
 		}
-		damage = { min = 4 max = 8 }
+		damage = { min = 3 max = 6 }
 		windup = { min = 0 max = 0 }
 		total_fire_time = 8
 		range = 35
 		accuracy = 1
 		power = -10
 		hull_damage = 1.0
-		armor_penetration = 0.0
+		armor_penetration = 1.0
 		armor_damage = 1.0
-		shield_penetration = 0.0
+		shield_penetration = 1.0
 		shield_damage = 1.0
 		tracking = 1
 		component_set = "EOE_MEW_Aura_Sphere"
