@@ -3,3 +3,4 @@
 * Added missing english description for Pokemnon Trainer origin
 * Converted stray Chinese in English Pokemon Trainer Mobilization Menu to English
 * Vampire Missile converted small slot to bring it in-line with other weapons. Range reduced to 150. This may change in the future...
+* Aura Sphere now penetrates shield and armor, acting a bit like a Point Defense Disruptor and making it effective against both missiles and strike craft. Damage has been reduced to compensate for this and it's 100% accuracy.
