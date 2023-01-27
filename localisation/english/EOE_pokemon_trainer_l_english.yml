@@ -33,6 +33,8 @@
 
  mod_planet_miners_minerals_upkeep_add:0 "£minerals£$minerals$ Upkeep of £job_miner£[GetMinerPlural]"
  mod_planet_miners_alloys_produces_add:0 "£alloys£$alloys$ from £job_miner£[GetMinerPlural]"
+ mod_planet_farmers_food_upkeep_add:0 "£food£$food$ Upkeep £job_farmer£[GetFarmerPlural]Upkeep of "
+ mod_planet_farmers_consumer_goods_produces_add:0 "£consumer_goods£$consumer_goods$ fromjob_farmer£[GetFarmerPlural]"
  trait_EOE_self_replication:0 "self-augmentation"
  trait_EOE_self_replication_desc:0 "These mechanical creatures have efficient reproduction modules. But the arithmetic of these ponderous modules takes up most of the memory, limiting the efficiency of these units in accomplishing complex functions."
  trait_EOE_alloy_structure:0 "Alloy structure"
@@ -43,6 +45,7 @@
  job_EOE_trainer:0 "Pokémon trainer"
  job_EOE_trainer_plural:0 "Pokémon trainer"
  job_EOE_trainer_desc:0 "These trainers diligently manage and maintain a huge number of steel type Pokémon."
+ job_EOE_trainer_effect_desc:0 "£EOE_trainer£ Pokémon Trainers produce £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§! and £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!, and reduced £crime"£ §RI$MENITIES_TITLE$§!
  mod_job_EOE_trainer_add:0 "Pokémon trainers"
  building_EOE_trainer_department:0 "Trainer Headquarters"
  building_EOE_trainer_department_desc:0 "This part of the chamber is fitted with a life-sustaining system for astronauts who manage steel-attribute Pokémon."
