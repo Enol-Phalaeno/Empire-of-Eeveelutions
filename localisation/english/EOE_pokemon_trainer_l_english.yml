@@ -60,7 +60,7 @@
  decision_EOE_produce_steel_type_Pokémon:0 "Produce steel type Pokémon"
  decision_EOE_produce_steel_type_Pokémon_desc:0 "Spend §Y1200§! £minerals£ ore, reproduce §G3§! steel type Pokémon £pop£pops. Production cooldown:§G3§! Year."
 origin_EOE_pokemon_trainer:0 "Pokemon Trainer"
-origin_EOE_pokemon_trainer_desc:0 "Some psionic creatures called Pokemons form an inseparable part of this civilization. They have powerful psychic power, but have no complete intellectual personality and language ability. Ancient technological breakthroughs have enabled this civilization to find a way to control Pokemons through the relics of pioneers, making it quite compliant today.\nAI country won't use this origin."
+origin_EOE_pokemon_trainer_desc:0 "Some psionic creatures called Pokemons form an inseparable part of this civilization. They have powerful psychic power, but have no complete intellectual personality and language ability. Ancient technological breakthroughs have enabled this civilization to find a way to control Pokemons through the relics of pioneers, making it quite compliant today.\nAI country won't use this origin. \n §SForced Spawned AIs with this origin will be broken!§!"
 origin_EOE_pokemon_trainer_effects:0 "- Start on a §GPokémon Planet $§! Guarded by a powerful ancient Creator fleet.\nStart game with §Y12§! £pop£ Pokémon Subspecies Pop.\nCan build special ground troops.\nYes Spend £food£ food, use Planet Decision to create Pokémon £pop£ Pop." 
  Other_mons:0 "Pokemon"
  Othermons:0 "Pokemon"
