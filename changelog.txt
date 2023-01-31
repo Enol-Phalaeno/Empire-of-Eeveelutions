@@ -7,3 +7,4 @@
 * Vampire Missile converted small slot to bring it in-line with other weapons. Range reduced to 150. This may change in the future...
 * Aura Sphere now penetrates shield and armor, acting a bit like a Point Defense Disruptor and making it effective against both missiles and strike craft. Damage has been reduced to compensate for this and it's 100% accuracy.
 * Draco Meteor renamed to Dragon Breath as canonically neither Latias nor Reshriam can use Draco Meteor. It still operates the same
+* Added warnings to Shattered Ring and Pokemon Trainer origin descriptions against force-spawning AIs with them. A more automatic solution ALA Giga is still pending.
