@@ -14,7 +14,7 @@ EEVEELUTION = {
     "Corvisquire" "Crobat" "Aerodactyl" "Xatu" "Murkow" "Mantine" "Pidgeot" "Fearow" "Dodrio" "Wingull" "Yanmega" "Tranquill" "Archeops" "Rufflet" "Mandibuzz" "Fletchinder" "Toucannon" "Seadra" "Lumineon" "Zweilous"
     }
     battleship = {
-    "Dragonite" "Swellow" "Salamence" "Staraptor" "Sky Shaymin" "Braviary" "Talonfalme" "Seaking" "Starmine" "Kindra" "Charizard" "Flygon" "Hydreigon"
+    "Dragonite" "Swellow" "Salamence" "Staraptor" "Sky Shaymin" "Braviary" "Talonflame" "Seaking" "Starmine" "Kindra" "Charizard" "Flygon" "Hydreigon"
     }
     titan = {
     "Gyarados" "Rayquaza" "Thundurus" "Landorus" "Milotic" "Cresselia"
@@ -228,7 +228,7 @@ EEVEELUTION = {
 			second_names = {
 			}
 			regnal_full_names = {
-			"enolether" "Leptailiurus"
+			"Enolether" "Leptailiurus"
 			}
 			regnal_first_names = {
 			}
