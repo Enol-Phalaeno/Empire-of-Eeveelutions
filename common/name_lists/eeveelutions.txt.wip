@@ -1,7 +1,7 @@
 EEVEELUTION = {
 
 	category = "Eeveelution"
-	randomized = no
+	randomized = yes
 	alias = "Eeveelution"
   ship_names = {
     corvette = {
