@@ -5,32 +5,46 @@ EEVEELUTION = {
 	alias = "Eeveelution"
   ship_names = {
     corvette = {
+    "Pidgey" "Spearow" "Zubat" "Hoothoot" "Ledyba" "Natu" "Starly" "Pidove" "Woobat" "Archen" "Fletchling" "pikipek" "Horsea" "Staryu" "Chinchou" "Carvanha" "Barboach" "Dratini" "Vibrava" "Denio" "Weedle" "Gastly"
     }
     destroyer = {
+    "Rookidee" "Corviknight" "Beedrill" "Doduo"  "Golbat" "Ledian" "Noctowl" "Pidgeotto" "Taillow" "Staravia" "Chatot" "Rotom" "Swoobat" "Ducklett" "Vullaby" "Hawlucha" "Trumbeak" "Watteral" "Ninjask" "Goldeen" "Finneon" "Lanturn" "Sharpedo" "Venomoth" "Haunter"
     }
     cruiser = {
+    "Corvisquire" "Crobat" "Aerodactyl" "Xatu" "Murkow" "Mantine" "Pidgeot" "Fearow" "Dodrio" "Wingull" "Yanmega" "Tranquill" "Archeops" "Rufflet" "Mandibuzz" "Fletchinder" "Toucannon" "Seadra" "Lumineon" "Zweilous"
     }
     battleship = {
+    "Dragonite" "Swellow" "Salamence" "Staraptor" "Sky Shaymin" "Braviary" "Talonfalme" "Seaking" "Starmine" "Kindra" "Charizard" "Flygon" "Hydreigon"
     }
     titan = {
+    "Gyarados" "Rayquaza" "Thundurus" "Landorus" "Milotic" "Cresselia"
     }
     colossus = {
+    "Moltres" "Zapdos" "Articuno" "Yveltal"
     }
     juggernaut = {
+    "Lugia" "Ho-Oh" "Altaria" "Wailord" "Lapras"
     }
     constructor = {
+    "Difblim" "Magikarp" "Skiploom" "Jumpluff" "Feebas" "Luvdisc" "Gorebyss" "Slowpoke" "Bibarel" "Beautify" "Dustox" "Cutiefly"
     }
     colonizer = {
+    "Drifblim" "Masquerain" "Pelipper" "Vespiquen"
     }
     sponsored_colonizer = {
+    "Drifblim" "Masquerain" "Pelipper" "Vespiquen"
     }
     science = {
+    "Emolga" "Abra" "Uxie" "Mesprit" "Azelf" "Elgyem" "Beheeyem" "Espurr" "Cosmog" "Hatenna" "Hattrem" "Misdreavus"
     }
     transport = {
+    "Swablu" "Cramorant" "Wailmer" "Whiscash" "Delibird" "Hoopa"
     }
     military_station_small = {
+    "Minior" "Lunatone" "Solrock" "Rolycoly" "Geodude" "Graveler" "Golem" "Probopass"
     }
     ion_cannon = {
+    "Slowbrow" "Tentacruel" "Relicanth"
     }
     mew = {
     "Mew"
