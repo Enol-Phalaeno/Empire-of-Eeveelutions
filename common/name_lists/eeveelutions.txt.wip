@@ -221,7 +221,7 @@ EEVEELUTION = {
 		default = {
     # Just use the full names. Leave the rest blank. Names should be mostly eevee/eeveelution puns or dirivitives obviously.
 			full_names = {
-			"Veera" "Veers" "Eve" "Eti"  "Bree" "Breel" "Umrea" "Flareos" "Flare" "Jolt" "Jollie" "Esper" "Seer" "Lee" "Lea" 
+			"Veera" "Veers" "Eve" "Eti"  "Bree" "Breel" "Umrea" "Flareos" "Flare" "Jolt" "Jollie" "Esper" "Seer" "Lee" "Lea" "Speed" "Sunshine" "Silvia" "Lazuli" "Crystal" "Solarfalre" "Leaf" "Pearl" "Black" "Mollie" "Frost" "Frank" "Brian" "Blaze" "Rin" "Bolt"
 			}
 			first_names = {
 			}
