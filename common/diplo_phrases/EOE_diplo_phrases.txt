@@ -13,6 +13,18 @@ greetings = {
 				is_hostile_to = FROM
 				is_unfriendly_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_HOSTILE_GREETING_02 = {
@@ -26,6 +38,12 @@ greetings = {
 				is_hostile_to = FROM
 				is_unfriendly_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_HOSTILE_GREETING_03 = {
@@ -39,6 +57,12 @@ greetings = {
 				is_hostile_to = FROM
 				is_unfriendly_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_DOMINEERING_GREETING_01 = {
@@ -51,6 +75,12 @@ greetings = {
 			OR = {
 				is_domineering_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_NEUTRAL_GREETING_01 = {
@@ -62,6 +92,12 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM
 		}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 	}
 	EOE_EA_NEUTRAL_GREETING_02 = {
 		weight = {
@@ -72,6 +108,12 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM
 		}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 	}
 	EOE_EA_NEUTRAL_GREETING_03 = {
 		weight = {
@@ -82,6 +124,12 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			is_neutral_to = FROM
 		}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 	}
 	EOE_EA_THREATENED_GREETING_01 = {
 		weight = {
@@ -92,6 +140,12 @@ greetings = {
 			NOT = { is_at_war_with = FROM }
 			is_threatened_to = FROM
 		}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 	}
 	EOE_EA_FRIENDLY_GREETING_01 = {
 		weight = {
@@ -105,6 +159,12 @@ greetings = {
 				is_cordial_to = FROM
 				is_protective_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_FRIENDLY_GREETING_02 = {
@@ -120,6 +180,12 @@ greetings = {
 				is_cordial_to = FROM
 				is_protective_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_FRIENDLY_GREETING_03 = {
@@ -135,6 +201,12 @@ greetings = {
 				is_cordial_to = FROM
 				is_protective_to = FROM
 			}
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_WAR_GREETING_01 = {
@@ -144,6 +216,12 @@ greetings = {
 		trigger = {
 			has_ai_personality = EOE_Eevee_assimilators
 			is_at_war_with = FROM
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_WAR_GREETING_02 = {
@@ -153,6 +231,12 @@ greetings = {
 		trigger = {
 			has_ai_personality = EOE_Eevee_assimilators
 			is_at_war_with = FROM
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_WAR_GREETING_03 = {
@@ -162,6 +246,12 @@ greetings = {
 		trigger = {
 			has_ai_personality = EOE_Eevee_assimilators
 			is_at_war_with = FROM
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_VASSAL_GREETING_01 = {
@@ -174,6 +264,12 @@ greetings = {
 			overlord = { is_same_value = FROM }
 			NOT = { is_at_war_with = FROM }
 			NOT = { is_disloyal_to = FROM }
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	EOE_EA_VASSAL_GREETING_DISLOYAL_01 = {
@@ -186,6 +282,12 @@ greetings = {
 			overlord = { is_same_value = FROM }
 			NOT = { is_at_war_with = FROM }
 			is_disloyal_to = FROM
+			from = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					has_country_flag = synthetic_empire
+				}
+			 }
 		}
 	}
 	
