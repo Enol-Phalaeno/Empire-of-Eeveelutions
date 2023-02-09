@@ -71,7 +71,7 @@ EOE_Eevee_assimilators = {
 	hull_ratio = 0.0 #Hull peices are stupid RN, so of course they won't use them.
 
 	threat_modifier = 0.95
-	threat_others_modifier = 0.65
+	threat_others_modifier = 0.25
 	friction_modifier = 1.3
 	claims_modifier = 2.25
 
