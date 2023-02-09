@@ -115,7 +115,8 @@ gov_EOE_despotic_empire:0 "$gov_star_empire$"
 gov_EOE_despotic_empire_desc:0 "$gov_star_empire_desc$"
 gov_EOE_plutocratic_oligarchy:0 "$gov_plutocratic_oligarchy$"
 gov_EOE_plutocratic_oligarchy_desc:0 "$gov_plutocratic_oligarchy_desc$"
-
+personality_EOE_Eevee_assimilators:0"Eevee Assimilator"
+personality_EOE_Eevee_assimilators_desc:0"Eevee Assimilators allow to use other intelligent life as raw materials to expand their own ethnic groups. They're rather aggressive but can be gotten along given some effort..."
  
 #prescripted_country
 
