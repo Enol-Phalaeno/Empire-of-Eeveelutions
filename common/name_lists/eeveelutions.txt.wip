@@ -144,7 +144,7 @@ EEVEELUTION = {
 	}
   planet_names = {
 
-#name them after regions and towns in pokemon.
+#name them after regions and towns in pokemon, obviously.
 		generic = {
 			names = {
 				
@@ -219,12 +219,16 @@ EEVEELUTION = {
 	character_names = {
 
 		default = {
-    # Just use the full names. Leave the rest blank.
+    # Just use the full names. Leave the rest blank. Names should be mostly eevee/eeveelution puns or dirivitives obviously.
 			full_names = {
+			"Veera" "Veers" "Eve" "Eti"  "Bree" "Breel" "Umrea" "Flareos" "Flare" "Jolt" "Jollie" "Esper" "Seer" "Lee" "Lea" 
 			}
 			first_names = {
 			}
 			second_names = {
+			}
+			regnal_full_names = {
+			"enolether" "Leptailiurus"
 			}
 			regnal_first_names = {
 			}
