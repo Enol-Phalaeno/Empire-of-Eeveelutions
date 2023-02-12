@@ -13,7 +13,7 @@ Immediate:
 Future:
 
 * Begin Eeveelution Keepers
-* Refine Eeveelution Troopers further
+* Refine Eeveelution Trainers further
   * Find non-legendary pokeship models
   * Make current pokeships legendary (event-based) only. 
 * Lucario Rival Mid-Game Crisis for Pokemon Trainer Origin (Pokemon Trainer origin meets the Great Khan)
