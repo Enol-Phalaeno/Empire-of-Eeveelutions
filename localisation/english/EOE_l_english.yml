@@ -53,6 +53,8 @@ d_EOE_ringworld_Broken_tunnel_3:0 "$d_EOE_ringworld_Broken_tunnel_1$"
 d_EOE_ringworld_Broken_tunnel_3_desc:0 "$d_EOE_ringworld_Broken_tunnel_1_desc$"
 d_EOE_ringworld_ancient_tech_district:0 "Ancient Research Section"
 d_EOE_ringworld_ancient_tech_district_desc:0 "This part of the ringworld underground structure once belonged to an ancient research section. In the more than 200 years of waiting for the ringworld orbit to return to normal, we have built our own scientific research base relying on the dilapidated facilities here. Leaders and scientists are here to monitor the state of the sanctuary and prepare for the revival of our civilization."
+d_EOE_ringworld_ancient_tech_district_1:0 "Ancient scientific research section"
+d_EOE_ringworld_ancient_tech_district_1_desc:0 "This part of the underground structure around the world once belonged to an ancient scientific research section. After cleaning and repairing it, we can build our own scientific research base relying on the dilapidated facilities here."
 d_EOE_ringworld_Refuge_City:0"Refuge City"
 d_EOE_ringworld_Refuge_City_desc:0"Relying on the ancient energy system, we built underground farms in the ringworld underground structure to support a part of the population. The food produced by these farms played a crucial role when most of the population were waiting for the production of the pokeball. Now, these underground farms can not only continue to play their original role, but also become the spiritual symbol of our civilization's victory over destiny."
 
