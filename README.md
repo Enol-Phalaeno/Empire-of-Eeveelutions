@@ -2,6 +2,7 @@ TODO List:
 
 Immediate: 
 
+* Find/make a way to allow for Megaevolution perks to be applied if you take the Psionic or Cybernetic routes. Currently there's only the way to do so 
 * Rebalance remaining non-legendary pokemon weapons for 3.6
 * Fix any remaining Localization issues.
 * Fix breed/assemble abuse by adding the condition that it can only be activated if availble jobs and unemployment are both above zero.
