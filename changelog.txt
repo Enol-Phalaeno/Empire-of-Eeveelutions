@@ -10,3 +10,4 @@
 * Added warnings to Shattered Ring and Pokemon Trainer origin descriptions against force-spawning AIs with them. A more automatic solution ALA Giga is still pending.
 * Steel Type Trainer can no longer be used with Mechanist (due to proposed AI only changes)
 * AIs spawning with the Eevee Assimilator civic now have a custom personality and some custom dialog.
+* Split all the Mints into three flavors: Strong (the current one), Regular, and Weak. This was due to Latias and Mew not being able to take advantage of most of them.
