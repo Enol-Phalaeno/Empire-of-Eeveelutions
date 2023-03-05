@@ -48,8 +48,7 @@ ship_section_template = {
 	resources = {
 		category = pokemon_ships
 		cost = {
-			food = 300
-			alloys = 60
+			food = 1200
 		}
 	}
 }
@@ -109,8 +108,7 @@ ship_section_template = {
 	resources = {
 		category = pokemon_ships
 		cost = {
-			food = 1200
-			alloys = 240
+			food = 3600
 		}
 	}
 	
@@ -186,8 +184,7 @@ ship_section_template = {
 	resources = {
 		category = pokemon_ships
 		cost = {
-			food = 3600
-			alloys = 720
+			food = 14400
 		}
 	}
 	
