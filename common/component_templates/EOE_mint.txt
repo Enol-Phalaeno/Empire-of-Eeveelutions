@@ -38,6 +38,53 @@ utility_component_template = {
 	ai_weight = { weight = 0 }
 }
 utility_component_template = {
+	key = "Hasty_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Hasty_Mint_75"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		ship_armor_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+utility_component_template = {
+	key = "Hasty_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Hasty_Mint_40"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		ship_armor_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
 	key = "Jolly_Mint"
 	size = small
 
@@ -46,6 +93,60 @@ utility_component_template = {
 
 	component_set = "pokemon_mint"
 	ship_behavior = "Jolly_Mint_150"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		
+	}
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Jolly_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Jolly_Mint_10"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		
+	}
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Jolly_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Jolly_Mint_50"
 	
 	resources = {
 		category = pokemon_ships
@@ -113,7 +214,107 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "Naive_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Naive_Mint_190"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		ship_shield_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Naive_Mint_3"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Naive_Mint_60"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+		ship_shield_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
 	key = "Timid_Mint"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Timid_Mint_300"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+	}
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = -0.1
+	} 
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Timid_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Green_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Timid_Mint_300"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+
+	modifier = {
+		ship_base_speed_mult = 0.1
+	}
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = -0.1
+	} 
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Timid_Mint_2"
 	size = small
 
 	icon = "GFX_EOE_Green_mint"
@@ -164,6 +365,52 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "Sassy_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Pink_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Sassy_Mint_stay_1"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	modifier = {
+		ship_shield_mult = 0.1
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Sassy_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Pink_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Sassy_Mint_stay_2"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	modifier = {
+		ship_shield_mult = 0.1
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
 	key = "Brave_Mint"
 	size = small
 
@@ -187,6 +434,57 @@ utility_component_template = {
 
 	ai_weight = { weight = 0 }
 }
+
+utility_component_template = {
+	key = "Brave_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Red_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Brave_Mint_stay_1"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.1
+	}
+	modifier = {
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Brave_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Red_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Brave_Mint_stay_2"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = 0.1
+	}
+	modifier = {
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
 utility_component_template = {
 	key = "Quiet_Mint"
 	size = small
@@ -213,6 +511,56 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "Quiet_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Blue_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Quiet_Mint_stay_1"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.1
+	}
+	modifier = {
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Quiet_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Blue_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Quiet_Mint_stay_2"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.1
+	}
+	modifier = {
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
 	key = "Relaxed_Mint"
 	size = small
 
@@ -221,6 +569,52 @@ utility_component_template = {
 
 	component_set = "pokemon_mint"
 	ship_behavior = "Relaxed_Mint_stay"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	modifier = {
+		ship_armor_mult = 0.1
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Relaxed_Mint_1"
+	size = small
+
+	icon = "GFX_EOE_Purple_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Relaxed_Mint_stay_1"
+	
+	resources = {
+		category = pokemon_ships
+		cost = { food = 20 }
+	}
+	modifier = {
+		ship_armor_mult = 0.1
+		ship_base_speed_mult = -0.1
+	}
+	size_restriction = {EOE_mew EOE_Latias EOE_Reshiram }
+
+	ai_weight = { weight = 0 }
+}
+
+utility_component_template = {
+	key = "Relaxed_Mint_2"
+	size = small
+
+	icon = "GFX_EOE_Purple_mint"
+	icon_frame = 1
+
+	component_set = "pokemon_mint"
+	ship_behavior = "Relaxed_Mint_stay_2"
 	
 	resources = {
 		category = pokemon_ships
