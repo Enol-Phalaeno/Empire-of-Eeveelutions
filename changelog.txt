@@ -11,6 +11,6 @@
 * Steel Type Trainer can no longer be used with Mechanist (due to proposed AI only changes)
 * AIs spawning with the Eevee Assimilator civic now have a custom personality and some custom dialog.
 * Split all the Mints into three flavors: Strong (the current one), Regular, and Weak. This was due to Latias and Mew not being able to take advantage of most of them.
-* Pokemon Bioships: Nixed the Alloy cost in leu of increased food and 2/3/4x build time It takes time to build them. This should also have the added effect of making the recall device much more valuable (that has its alloy costs increased however.) Again, this is a temp solution untill something more substantial can be done with bioships (See future plans).
+* Pokemon Bioships: Nixed the Alloy cost in leu of increased food and 2/3/4x build time (it takes time to raise and train them.) This should also have the added effect of making the recall device much more valuable (that has its alloy costs increased however.) Again, this is a temp solution untill something more substantial can be done with bioships (See future plans).
 * Psychic and Psyshock no longer shoot down missiles and strike craft. That's what Aura Sphere is for.
 * Eeveelution assmilators can no longer assimilate fellow eeveelutions, thus preventing an assimilation loop. Unfortunately this means that eevees cannot quick-assimilate non-psionic eevees into regular eevees, but psionic doesn't really work ATM anyway.
