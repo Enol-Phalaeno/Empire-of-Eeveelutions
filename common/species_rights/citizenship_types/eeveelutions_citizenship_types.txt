@@ -22,7 +22,7 @@ EOE_citizenship_assimilation = {
 		hidden_trigger = { exists = from }
 		custom_tooltip = {
 			fail_text = MUST_NOT_BE_DOMINANT_SPECIES
-			NOT = { is_exact_same_species = from }
+			NOT = {is_species_class = Eeveelutions}
 		}
 
 
