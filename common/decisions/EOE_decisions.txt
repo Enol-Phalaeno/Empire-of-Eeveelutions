@@ -20,7 +20,7 @@ decision_EOE_habitat_repairing = {
 		remove_modifier = EOE_broken_habitat
 	}
 	ai_weight = {
-		weight = 1
+		weight = 1000
 	}
 }
 
@@ -38,6 +38,7 @@ decision_EOE_produce_steel_type_pokemon = {
 			NOT = { has_planet_flag = EOE_steel_type_pokemon_produce_cooldown }
 		}
 	}
+	enactment_time = 90
 	resources = {
 		category = decisions
 		cost = {
@@ -112,6 +113,7 @@ decision_EOE_produce_pokemon = {
 			NOT = { has_planet_flag = EOE_pokemon_produce_cooldown }
 		}
 	}
+	enactment_time = 90
 	resources = {
 		category = decisions
 		cost = {
