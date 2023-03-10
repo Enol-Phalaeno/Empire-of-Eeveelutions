@@ -10,7 +10,7 @@ Immediate:
 * Remove stacking 5% on pokemon worlds and replace that with a built-in ruler job.
 * Remove Duelists from pokemon Trainer/Arcology Leisure districts as they're pointless, and replace those with a single ruler job that adds +1% resource production for every 100 amenities.
 * Pokemon Trainer Job: Reduce Planetary Defense Armies per pop from 2 to 1. Or just adds a straight powerful defense army instead of the PDA PP. We already have the 'Plants vs. Aliens' goveneor trait for this after all.
-* Steel Type Trainer: Make it AI friendly so they get a straight bonus to robot production plus a free roboticist job. Also give them a "Steel Type Assimilator" hidden perk that converts normal robots into Steel Type Mons just to be safe.
+* Remove the Planetary Decision system from Steel Type/Pokemon Trainer and replace it with some sort of Clone Army/Children of Zero Four like system (but it assembles the Steel Type/Othermons instead of your main species).
 
 Future:
 
