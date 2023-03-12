@@ -317,8 +317,8 @@ ship_behavior = {     #悠闲   炮击
 }
 
 ship_behavior = {     #悠闲   炮击
-	name = "Relaxed_Mint_stay"
-	desc = "Relaxed_Mint_stay_DESC"
+	name = "Relaxed_Mint_stay_2"
+	desc = "Relaxed_Mint_stay_2_DESC"
 	
 	preferred_attack_range = 100
 	formation_distance = 105
