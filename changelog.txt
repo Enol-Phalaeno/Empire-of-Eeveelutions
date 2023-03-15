@@ -15,3 +15,4 @@
 * Psychic and Psyshock no longer shoot down missiles and strike craft. That's what Aura Sphere is for.
 * Eeveelution assmilators can no longer assimilate fellow eeveelutions, thus preventing a forever assimilation loop. Unfortunately this means that eevees cannot quick-assimilate non-psionic eevees into regular eevees, but psionic doesn't really work ATM anyway.
 * Train Steelmon/Pokemon decision now takes 90 days to enact. They need time to breed, raise, and train the mons after all. Though this is a temp solution to this issue. I hope we can eventually move this over to some sort of clone army/children of zero four system in the future and nix the decision system entirely.
+* Mints have been expanded into Strong, Regular, and Weak versions. We're currently debating getting rid of them altogether and embracing enhanced versions of the vanilla targeting computers instead, however.
