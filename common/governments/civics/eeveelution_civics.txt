@@ -38,6 +38,11 @@ civic_eeveelutions_assimilator = {
 				value = civic_fanatic_purifiers	
 			}
 		}
+		origin = {
+			NOT = {
+				value = origin_broken_shackles	
+			}
+		}
 	}
 	pickable_at_start = yes 
 	modification = yes
@@ -81,9 +86,10 @@ civic_EOE_steel_type_trainer = {
 	modification = no
 	potential = {
 		origin = {
-			NOT = {
+			NOR = {
 				value = origin_EOE_pokemon_trainer
 				value = origin_mechanists
+				value = origin_broken_shackles	
 			}
 		}
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
