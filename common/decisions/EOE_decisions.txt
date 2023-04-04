@@ -60,7 +60,7 @@ decision_EOE_produce_steel_type_pokemon = {
 		} 
 	}
 	ai_weight = {
-		weight = 1
+		weight = 1000
 	}
 }
 decision_EOE_assimilate = {
@@ -135,7 +135,7 @@ decision_EOE_produce_pokemon = {
 		} 
 	}
 	ai_weight = {
-		weight = 1
+		weight = 1000
 	}
 }
 
