@@ -20,6 +20,9 @@ EOE_MEW_Psyshock_medium:0 "Augmented Psyhock"
 EOE_MEW_Psyshock_large:0 "Behemoth Psyhock"
 EOE_MEW_Psyshock_DESC:0 "Developed based on the eponymous Pokémon move , this organ can convert psionic into kinetic energy and blast enemy ships without the need for work mass. Pokemon's directional psionic attack is suitable for sniping small high-speed targets at a long distance, but it is difficult to cause effective damage to large ships. \n§TYou can also cultivate these organs on your battleship and use them as ship components. §!"
 
+EOE_MEW_Sky_Attack:0 "Sky Attack"
+EOE_MEW_Sky_Attack_DESC:0 "A torpedo for Mew to turn them into destroyer-frigates so they suck less." ##obviously a temporary description.
+
 EOE_MEW_Whirlpool:0"Whirlpool"
 EOE_MEW_Whirlpool_DESC:0"The psionic power emitted by this organ can cause severe disturbance to the subspace and interfere with the enemy's FTL engine and shield system."
 
