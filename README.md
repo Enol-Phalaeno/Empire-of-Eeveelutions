@@ -2,6 +2,8 @@ TODO List:
 
 Immediate: 
 
+* Ditch the mint system for a more sane, vanilla-based computer system.
+ * Possibly replace the mint system with something akin to the 'held item' system in pokemon (thus also removing the leftovers and making that one of the held items)
 * Find/make a way to allow for Megaevolution perks to be applied if you take the Psionic or Cybernetic routes. Currently there's only the way to do so 
 * Rebalance remaining non-legendary pokemon weapons for 3.6
 * Fix any remaining Localization issues.
