@@ -14,5 +14,4 @@
 * Psychic and Psyshock no longer shoot down missiles and strike craft. That's what Aura Sphere is for.
 * Eeveelution assmilators can no longer assimilate fellow eeveelutions, thus preventing a forever assimilation loop. Unfortunately this means that eevees cannot quick-assimilate non-psionic eevees into regular eevees, but psionic doesn't really work ATM anyway.
 * Eeveelution Assimilator perk can no longer be used with the Broken Shackles origin (Because that ruins the whole point of the Broken Shackles origin.)
-* Train Steelmon/Pokemon decision now takes 90 days to enact. They need time to breed, raise, and train the mons after all. Though this is a temp solution to this issue. I hope we can eventually move this over to some sort of clone army/children of zero four system in the future and nix the decision system entirely.
-* Reworked the mints, so they are slightly better versions of the vanilla precog computers. Hasty=Swarm, Bold=Torpedo, Brave=Picket, Sassy=Line, Quiet=Artillery, and Timid=Carrier. All other mints have been removed.
+* Reworked the mints to be less clunky, so they are slightly better versions of the vanilla precog computers. Hasty=Swarm, Bold=Torpedo, Brave=Picket, Sassy=Line, Quiet=Artillery, and Timid=Carrier. All other mints have been remove.
