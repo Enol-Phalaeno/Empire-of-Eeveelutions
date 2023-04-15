@@ -306,7 +306,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_EOE_Mew_weapon" }
-	component_set = "EOE_MEW_Psyshock"
+	component_set = "EOE_MEW_Sky_Attack"
 	projectile_gfx = "neutron_torpedoes" #again, a placeholder untill we get something better.
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery }
@@ -782,13 +782,13 @@ utility_component_template = {  #梦幻 电脑
 		}
 	}
 	modifier = {
-		ship_evasion_mult = 0.15
-		ship_speed_mult = 0.20
+		#ship_evasion_mult = 0.15
+		#ship_speed_mult = 0.20
 	}
 	ship_modifier = {
 		ship_fire_rate_mult = 0.15
 	}
-	ship_behavior = "swarm"
+	#ship_behavior = "swarm"
 	#prerequisites = { "tech_EOE_Mew" }
 	class_restriction = { shipclass_military }
 	size_restriction = { EOE_mew}
