@@ -27,6 +27,11 @@ ship_section_template = {
 		locatorname = "EOE_MEW_Psychic"
 	}
 	component_slot = {
+		name = "TORPEDO_01"
+		template = "invisible_missile_turret"
+		locatorname = "EOE_MEW_Psychic"
+	}
+	component_slot = {
 		name = "POINT_01"
 		template = "invisible_point_defence_turret"
 		locatorname = "EOE_MEW_Psychic"
