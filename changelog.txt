@@ -15,3 +15,4 @@
 * Eeveelution assmilators can no longer assimilate fellow eeveelutions, thus preventing a forever assimilation loop. Unfortunately this means that eevees cannot quick-assimilate non-psionic eevees into regular eevees, but psionic doesn't really work ATM anyway.
 * Eeveelution Assimilator perk can no longer be used with the Broken Shackles origin (Because that ruins the whole point of the Broken Shackles origin.)
 * Reworked the mints to be less clunky, so they are slightly better versions of the vanilla precog computers. Hasty=Swarm, Bold=Torpedo, Brave=Picket, Sassy=Line, Quiet=Artillery, and Timid=Carrier. All other mints have been remove.
+* Mew now has a torpedo slot and a new weapon (Sky Attack) that acts like a slight combo between a devestator torpedo and a neutron launcher. Hopefully this means it should suck less.
