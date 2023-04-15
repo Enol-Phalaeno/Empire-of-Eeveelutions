@@ -96,7 +96,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "Timid_Mint" #Artillery Equivalent
+	key = "Quiet_Mint" #Artillery Equivalent
 	size = small
 
 	icon = "GFX_EOE_Blue_mint"
@@ -121,7 +121,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "Quiet_Mint" #Carrier Equivalent. Although TBH I'm not sure why anyone would use this. None of the mons are carriers.... yet.
+	key = "Timid_Mint" #Carrier Equivalent. Although TBH I'm not sure why anyone would use this. None of the mons are carriers.... yet.
 	size = small
 
 	icon = "GFX_EOE_Purple_mint"
