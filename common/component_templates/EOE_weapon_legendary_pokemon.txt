@@ -271,9 +271,56 @@ weapon_component_template = { #小 精神冲击
 	armor_penetration = 0
 ai_weight = {
 		weight = 0
-	}	}
+	}	
+}
+weapon_component_template = {
+	key = "EOE_MEW_Sky_Attack" #Mew Torpedo
+	size = torpedo
+	
+	icon = "GFX_ship_part_energy_torpedo_2" #placeholder until we get a proper icon
+	icon_frame = 1
+	type = instant #Mix between an energy torpedo and a normal torpedo
 
+	damage = { min = 70 max = 175 } #based off of the torpedo version of the vampire missile for now.
+	windup = { min = 5 max = 10 }
+	cooldown = 125
+	range = 40
+	accuracy = 1.0
+	power = -60
+	hull_damage = 1.6
+	armor_damage = 1.4
+	armor_penetration = 0.1
+	shield_damage = 0.70
+	shield_penetration = 0.3
+	size_damage_factor = 1.0
 
+	resources = {
+		category = pokemon_ships
+		cost = {
+			food = 50
+			alloys = 5
+		}
+		upkeep = {
+			food = 0.1
+		}
+	}
+
+	prerequisites = { "tech_EOE_Mew_weapon" }
+	component_set = "EOE_MEW_Psyshock"
+	projectile_gfx = "neutron_torpedoes" #again, a placeholder untill we get something better.
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery }
+	ai_weight = {
+		weight = 3
+		modifier = {
+			factor = 0.0
+			has_monthly_income = {
+				resource = volatile_motes
+				value <= 2
+			}	
+		}
+	}
+}
 
 
 	weapon_component_template = {   ###############波导弹
