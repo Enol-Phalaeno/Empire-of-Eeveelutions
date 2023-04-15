@@ -221,7 +221,7 @@ EEVEELUTION = {
 		default = {
     # Just use the full names. Leave the rest blank. Names should be mostly eevee/eeveelution puns or dirivitives obviously.
 			full_names = {
-			"Veera" "Veers" "Eve" "Eti" "Eon" "Eievui" "Evoii" "Eboi" "Vui" "Eilie" "Vulu" "Bree" "Breel" "Umrea" "Umbra" "Umbriss" "Umbrella" "Blacky" "Black" "Dark" "Umther" "Flareos" "Flare" "Ember" "Laree" "Ares" "Flass" "Booster" "Boost" "Boo" "Jolt" "Jollie" "Jolly" "Jollo" "Teal" "Teo" "Thunders" "Thunder" "Thundun" "Derz" "Esper" "Essy" "Seer" "Eifie" "Fie" "Fay" "Lee" "Lea" "Leaf" "Leafy" "Freon" "Syl" "Veo" "Ylvette" "Glitters" "Nymphia" "Nymph" "Nympho" "Glace" "Grace" "Ace" "Acer" "Vappy" "Vaper" "Vape" "Oreo" "Vapor" "Splashy" "Showers" "Shower" "ShoSho" "Wer" "Werner" "Speed" "Sunshine" "Silvia" "Lazuli" "Crystal" "Solarfalre" "Leaf" "Pearl" "Black" "Mollie" "Frost" "Frank" "Brian" "Blaze" "Rin" "Bolt" "Orion" "Holly" "Sirius" "Leo" "Clover" "Nixy" "Rachel" "Mischief" "Andy" "Adam" "Juno" "Miles"
+			"Veera" "Veers" "Eve" "Eti" "Eon" "Eievui" "Evoii" "Eboi" "Vui" "Eilie" "Vulu" "Bree" "Breel" "Umrea" "Umbra" "Umbriss" "Umbrella" "Blacky" "Black" "Dark" "Umther" "Flareos" "Flare" "Ember" "Laree" "Ares" "Flass" "Booster" "Boost" "Boo" "Jolt" "Jollie" "Jolly" "Jollo" "Teal" "Teo" "Thunders" "Thunder" "Thundun" "Derz" "Esper" "Essy" "Seer" "Eifie" "Fie" "Fay" "Lee" "Lea" "Leaf" "Leafy" "Freon" "Syl" "Veo" "Ylvette" "Glitters" "Nymphia" "Nymph" "Nympho" "Glace" "Grace" "Ace" "Acer" "Vappy" "Vaper" "Vape" "Oreo" "Vapor" "Splashy" "Showers" "Shower" "ShoSho" "Wer" "Werner" "Speed" "Sunshine" "Silvia" "Lazuli" "Crystal" "Solarfalre" "Leaf" "Pearl" "Black" "Mollie" "Frost" "Frank" "Brian" "Blaze" "Rin" "Bolt"
 			}
 			first_names = {
 			}
