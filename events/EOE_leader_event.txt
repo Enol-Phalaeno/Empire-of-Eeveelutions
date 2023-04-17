@@ -11,7 +11,7 @@ country_event = {
 				limit = {
 					has_leader_flag = EOE_leader_okra
 				}
-				change_leader_portrait = EOE101
+				change_leader_portrait = EOEOkra
 			}
 			if = {
 				limit = {
@@ -5299,7 +5299,7 @@ country_event = {
 			create_leader = {
 				class = scientist
 				species = owner_main_species
-				name = Okra
+				name = NAME_Okra
 				skill = 3
 				traits = {
 					trait = "leader_trait_spark_of_genius"
@@ -5315,7 +5315,7 @@ country_event = {
 			}
 			last_created_leader = {
 				set_is_female = yes
-				change_leader_portrait = EOE101
+				change_leader_portrait = EOEOkra
 				save_global_event_target_as = EOE_okra
 			}
 			country_event = {
