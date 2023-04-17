@@ -281,11 +281,13 @@ weapon_component_template = {
 	icon = "GFX_ship_part_energy_torpedo_2" #placeholder until we get a proper icon
 	icon_frame = 1
 	type = instant #Essentially a neutron launcher but in reverse.
-
-	damage = { min = 70 max = 140 } #Readjusted this so it's now essentially a reverse neutron launcher
+	
+	damage = { min = 70 max = 140 }
 	windup = { min = 20 max = 150 }
 	#total_fire_time = 250
 	cooldown - 150
+	min_range = 45.0
+	firing_arc = 25.0
 	range = 120
 	accuracy = 0.9
 	power = -70
@@ -311,16 +313,9 @@ weapon_component_template = {
 	component_set = "EOE_MEW_Sky_Attack"
 	projectile_gfx = "neutron_torpedoes" #again, a placeholder untill we get something better.
 	tags = { weapon_type_explosive weapon_type_kinetic }
-	ai_tags = { weapon_role_artillery }
+	ai_tags = { weapon_role_artillery artillery artillery_stealth energy_torpedoes energy_torpedoes_stealth }
 	ai_weight = {
 		weight = 3
-		modifier = {
-			factor = 0.0
-			has_monthly_income = {
-				resource = volatile_motes
-				value <= 2
-			}	
-		}
 	}
 }
 
