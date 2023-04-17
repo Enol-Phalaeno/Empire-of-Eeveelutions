@@ -205,16 +205,16 @@ district_EOE_pokemon_industrial = {
 			planet_max_buildings_add = 0.5
 		}
 	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			has_planet_flag = EOE_building_20_b_finished
-		}
-		modifier = {
-			planet_jobs_consumer_goods_produces_mult = 0.05
-			planet_jobs_alloys_produces_mult = 0.05
-		}
-	}
+	# triggered_planet_modifier = {
+	# 	potential = {
+	# 		exists = owner
+	# 		has_planet_flag = EOE_building_20_b_finished
+	# 	}
+	# 	modifier = {
+	# 		planet_jobs_consumer_goods_produces_mult = 0.05
+	# 		planet_jobs_alloys_produces_mult = 0.05
+	# 	}
+	# }
 	
 	triggered_planet_modifier = {
 		potential = {
@@ -1575,7 +1575,7 @@ district_EOE_arcology_arms_industry = {
 			has_planet_flag = EOE_building_20_b_finished
 		}
 		modifier = {
-			planet_jobs_alloys_produces_mult = 0.05
+			planet_jobs_alloys_produces_mult = 0.02
 		}
 	}
 	triggered_planet_modifier = {
@@ -1689,7 +1689,7 @@ district_EOE_arcology_civilian_industry = {
 			has_planet_flag = EOE_building_20_b_finished
 		}
 		modifier = {
-			planet_jobs_consumer_goods_produces_mult = 0.05
+			planet_jobs_consumer_goods_produces_mult = 0.02
 		}
 	}
 	triggered_planet_modifier = {
