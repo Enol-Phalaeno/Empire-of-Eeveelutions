@@ -1,5 +1,8 @@
 ﻿l_simp_chinese:
 
+#namelist
+name_list_EEVEELUTION:0 "伊布家族"
+
 #technology
 tech_Gender_Balance:0"性别比例均衡化"
 tech_Gender_Balance_desc:0"众所周知，雌性伊布是极为高效的生殖机器。她们能产下足够多的后代，让伊布的种群数量在雌雄性别比例为1：7的情况下还能保持增长，凭强大的产卵能力与创造者留下的离谱设定抗衡。而现在，伊布们可以通过推广使用能选择性灭活部分含Y染色体的雄配子的药物来均衡自身种群的性别比例，打破血脉中的“1：7魔咒”，释放自身种族在增殖繁衍方面的全部潜力。\n  这也能结束伊布们由于性别比例不均而产生的群婚习俗并使推行一夫一妻制成为可能，提高公民的幸福度并减少与性有关的暴力行为。"
@@ -25,7 +28,7 @@ tech_Deep_brain_development_desc:0"从伊布文明历史的开端，我们就开
 #origin
 origin_protoss_shattered_ring:0 "破碎之环（伊布）"
 origin_protoss_shattered_ring_desc:0 "这个星系拥有一个先驱者文明建造的环世界，但建造环世界的先驱者早已消失在历史的长河中。"
-origin_tooltip_protoss_shattered_ring_effects:1 "§Y这是旧版游戏（3.0版本）的破碎之环起源§!\n游戏开始时以一个部分损毁的§Y环形世界§!作为你的母星。\n该环形世界初始时具有§Y$d_arcane_generator$§!，可以维护一些区段。不会锁定宜居性偏好。"
+origin_tooltip_protoss_shattered_ring_effects:1 "§Y这是旧版游戏（3.0版本）的破碎之环起源§!\n游戏开始时以一个部分损毁的§Y环形世界§!作为你的母星。\n该环形世界初始时具有§Y$d_arcane_generator$§!，可以维护一些区段。不会锁定宜居性偏好。§R如果强制生成一个该起源的AI可能会出问题。§!"
 
 #startsystem
 protoss_shattered_ring_start_NAME:0 "破碎之环（伊布）"
@@ -81,6 +84,8 @@ gov_EOE_despotic_empire:0 "$gov_star_empire$"
 gov_EOE_despotic_empire_desc:0 "$gov_star_empire_desc$"
 gov_EOE_plutocratic_oligarchy:0 "$gov_plutocratic_oligarchy$"
 gov_EOE_plutocratic_oligarchy_desc:0 "$gov_plutocratic_oligarchy_desc$"
+personality_EOE_Eevee_assimilators:0"伊布同化者"
+personality_EOE_Eevee_assimilators_desc:0"伊布同化者可以使用其他智慧生命作为原料来扩张他们的种群。它们富有侵略性，但是依然是可以相处的。"
 
 
 #static_modifier
