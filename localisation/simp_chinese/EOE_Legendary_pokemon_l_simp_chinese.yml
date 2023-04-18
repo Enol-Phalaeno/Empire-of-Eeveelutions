@@ -27,6 +27,9 @@ EOE_MEW_Aura_Sphere_DESC:0"基于同名宝可梦招式研发，这个器官能�
 EOE_Draco_Meteor:0"龙星群"
 EOE_Draco_Meteor_DESC:0"基于同名宝可梦招式研发，这个器官能产生紧密聚集的高能中子并将其加速至近光速，相对论效应赋予抛射体的巨大质量令时空都为之颤动。\n§T你也可以在战舰上培养这些器官，将其用作舰船组件。§!"
 
+EOE_MEW_Sky_Attack:0 "神鸟猛击"
+EOE_MEW_Sky_Attack_DESC:0 "基于同名宝可梦招式研发，这个器官能产生飞鸟形状的粒子团，通过破坏性共振瘫痪护盾系统。\n§T你也可以在战舰上培养这些器官，将其用作舰船组件。§!"
+
 EOE_Blue_Flare:0"青焰"
 EOE_Blue_Flare_DESC:0"宛若洪荒初开的瞬间，这个器官发出的灵能攻击能在敌方舰体上制造4万亿摄氏度的高温，将敌方连人带船熔成一团夸克胶子汤。"
  FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_FIRE_EOE_SMALL:0 "准备焚烧 $PLANET|Y$"
