@@ -18,3 +18,4 @@
 * Mew now has a torpedo slot and a new weapon (Sky Attack) that acts like a slight combo between a devestator torpedo and a neutron launcher. Hopefully this means it should suck less.
 * Orka has a new portrait.
 * Corrected upkeep of Othermons.
+* Mega Evolution corrections. Mega Evolution Ascention Perk description now tells you that the Genetic Path is the recommended ascention path.
