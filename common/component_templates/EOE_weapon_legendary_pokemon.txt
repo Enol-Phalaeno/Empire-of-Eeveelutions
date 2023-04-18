@@ -274,7 +274,7 @@ ai_weight = {
 	}	
 }
 
-weapon_component_template = {
+weapon_component_template = { #神鸟猛击
 	key = "EOE_MEW_Sky_Attack" #Mew Torpedo
 	size = torpedo
 	
