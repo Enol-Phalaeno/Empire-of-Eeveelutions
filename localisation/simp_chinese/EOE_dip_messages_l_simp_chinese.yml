@@ -32,10 +32,10 @@ l_simp_chinese:
  EOE_EA_WAR_GREETING_03:0 "别担心，我们会尽力避免杀害你们的人口，毕竟我们吧是同化者，而非杀戮者。"
  EOE_EA_WAR_GREETING_03_ROBOT_RS:0 "别担心，[From.GetSpeciesName]，你曾经保护的有机生物会在我们这里过得很好的。"
  # Vassal greetings 
- EOE_EA_VASSAL_GREETING_01:0 "你好啊，不是创造者但可能是的人!"
+ EOE_EA_VASSAL_GREETING_01:0 "你好啊，不是创造者但相当于我们创造者的人!"
  EOE_EA_VASSAL_GREETING_DISLOYAL_01:0 "怎么可能？"
  # Declaration of War
  EOE_EA_DOW_PROPOSE_01:0 "等着被变成[Root.GetSpeciesName]吧！"
  EOE_EA_DOW_PROPOSE_01_ROBOT_DA:0 "是时候让你看看什么是'同化'的真正含义了!"
  EOE_EA_DOW_PROPOSE_02:0 "接受同化吧，不然你就..反正也会被同化，一样的！"
- EOE_EA_DOW_PROPOSE_02_ROBOT_DA:0 "不，你们也会被同化的！"
+ EOE_EA_DOW_PROPOSE_02_ROBOT_DA:0 "不，该被同化的是你们！"
