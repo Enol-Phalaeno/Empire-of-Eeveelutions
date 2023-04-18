@@ -8,10 +8,13 @@ tech_endless_evolution = {
 	tier = @repeatableTechTier
 	category = { biology }
 	levels = 60
-	prerequisites = { "tech_genetic_resequencing" }
+	prerequisites = {  }
 	icon = tech_gene_tailoring
 	weight = @repeatableTechWeight
 	
+	potential = {
+		has_tradition = tr_genetics_finish
+	}
 	weight_modifier = {
 		factor = @repatableTechFactor
 	    modifier = {
