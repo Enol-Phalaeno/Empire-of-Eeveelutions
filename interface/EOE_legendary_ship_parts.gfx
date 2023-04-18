@@ -264,5 +264,13 @@ spriteTypes = {
 	
 	}
 }
+spriteTypes = {
+	##舰船部件
+	spriteType = {
+		name = "GFX_EOE_sky_attack"
+		texturefile = "gfx/interface/icons/ship_parts/GFX_EOE_sky_attack.dds"			
+	
+	}
+}
 
 
