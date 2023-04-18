@@ -164,6 +164,12 @@ trait_normal_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		pop_environment_tolerance = 2.0
@@ -181,6 +187,12 @@ trait_grass_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		planet_pops_food_upkeep_mult = -0.50
@@ -200,6 +212,12 @@ trait_fire_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		planet_metallurgists_produces_mult = 0.30
@@ -220,6 +238,12 @@ trait_water_type_mega_evolution = {
 	randomized = no
 	improves_leaders = yes
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		leader_age = 50
@@ -240,6 +264,12 @@ trait_electric_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		planet_jobs_energy_produces_mult = 0.50
@@ -259,6 +289,12 @@ trait_psychic_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	modifier = {
 		planet_jobs_engineering_research_produces_mult = 0.35
@@ -280,6 +316,12 @@ trait_dark_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	opposites = { trait_dark_type_mega_evolution_swarm }
 	
@@ -331,6 +373,12 @@ trait_ice_type_mega_evolution = {
 	initial = no
 	randomized = no
 	advanced_trait = yes
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 	allowed_archetypes = { POKEMON}
 	opposites = { trait_ice_type_mega_evolution_swarm }
 	
@@ -386,7 +434,12 @@ trait_fairy_type_mega_evolution = {
 	advanced_trait = yes
 	allowed_archetypes = { POKEMON}
 	opposites = { trait_fairy_type_mega_evolution_swarm }
-		
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
 
 	modifier = {
 	    species_empire_size_mult = -0.40
