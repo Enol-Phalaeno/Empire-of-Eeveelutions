@@ -16,6 +16,6 @@
 * Eeveelution Assimilator perk can no longer be used with the Broken Shackles origin (Because that ruins the whole point of the Broken Shackles origin.)
 * Reworked the mints to be less clunky, so they are slightly better versions of the vanilla precog computers. Hasty=Swarm, Bold=Torpedo, Brave=Picket, Sassy=Line, Quiet=Artillery, and Timid=Carrier. All other mints have been remove.
 * Mew now has a torpedo slot and a new weapon (Sky Attack) that acts like a slight combo between a devestator torpedo and a neutron launcher. Hopefully this means it should suck less.
-* Orka has a new portrait.
+* Okra has a new portrait.
 * Corrected upkeep of Othermons.
 * Mega Evolution corrections. Mega Evolution Ascention Perk description now tells you that the Genetic Path is the recommended ascention path.
