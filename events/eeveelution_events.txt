@@ -3061,6 +3061,46 @@ country_event = {
 	} 
 }
 
+#bio ascendancy mod workaround
+
+country_event = {
+	id = eevent.1008
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {  
+		has_ascension_perk = ap_biological_perfection
+	}
+
+	immediate = {
+		give_technology = {
+		tech = EOE_tech_tr_biological_perfection
+		message = no
+	}
+		
+	} 
+}
+
+
+country_event = {
+	id = eevent.1009
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {  
+		has_tradition = tr_bioasc_finish
+	}
+
+	immediate = {
+		give_technology = {
+		tech = EOE_tech_tr_bioasc_finish
+		message = no
+	}
+		
+	} 
+}
+
+
 
 
 #同化，44
