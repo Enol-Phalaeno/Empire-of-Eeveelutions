@@ -1,0 +1,6 @@
+on_tradition_picked = {
+	events = {
+		eevent.1008
+		eevent.1009
+	}
+}
