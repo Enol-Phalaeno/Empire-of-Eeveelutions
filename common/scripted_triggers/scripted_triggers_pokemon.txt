@@ -10,7 +10,10 @@ is_organic_species = { #如果其他mod也改了这个，会引起冲突（比�
 
 has_food_upkeep = {
 	species = {
-		is_archetype = POKEMON
+		OR = {
+			is_archetype = BIOLOGICAL
+			is_archetype = POKEMON
+		}
 	}
 	NOT = { has_trait = trait_voidling }
 }
