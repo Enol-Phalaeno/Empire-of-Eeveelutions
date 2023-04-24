@@ -205,16 +205,15 @@ district_EOE_pokemon_industrial = {
 			planet_max_buildings_add = 0.5
 		}
 	}
-	# triggered_planet_modifier = {
-	# 	potential = {
-	# 		exists = owner
-	# 		has_planet_flag = EOE_building_20_b_finished
-	# 	}
-	# 	modifier = {
-	# 		planet_jobs_consumer_goods_produces_mult = 0.05
-	# 		planet_jobs_alloys_produces_mult = 0.05
-	# 	}
-	# }
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			has_planet_flag = EOE_building_20_b_finished
+		}
+		modifier = {
+			planet_housing_add = 1
+		}
+	}
 	
 	triggered_planet_modifier = {
 		potential = {
@@ -627,7 +626,7 @@ district_EOE_pokemon_industrial = {
 }
 
 district_EOE_pokemon_mining = {
-	base_buildtime = 240
+	base_buildtime = 300
 
 	show_on_uncolonized = {
 		exists = from
@@ -661,7 +660,7 @@ district_EOE_pokemon_mining = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 300
+			minerals = 360
 		}
 		upkeep = {
 			energy = 1
@@ -781,7 +780,7 @@ district_EOE_pokemon_mining = {
 }
 
 district_EOE_pokemon_farming = {
-	base_buildtime = 240
+	base_buildtime = 300
 
 	show_on_uncolonized = {
 		exists = from
@@ -814,7 +813,7 @@ district_EOE_pokemon_farming = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 300
+			minerals = 360
 		}
 		# Anglers Civic cost effect
 		cost = {
@@ -986,7 +985,7 @@ district_EOE_pokemon_farming = {
 }
 
 district_EOE_pokemon_generator = {
-	base_buildtime = 240
+	base_buildtime = 300
 
 	show_on_uncolonized = {
 		exists = from
@@ -1019,7 +1018,7 @@ district_EOE_pokemon_generator = {
 	resources = {
 		category = planet_districts
 		cost = {
-			minerals = 300
+			minerals = 360
 		}
 		upkeep = {
 			energy = 1
@@ -1136,7 +1135,7 @@ district_EOE_pokemon_generator = {
 }
 
 district_EOE_pokemon_science = {
-	base_buildtime = 240
+	base_buildtime = 480
 	is_capped_by_modifier = no
 	show_on_uncolonized = {
 		exists = from
@@ -1166,15 +1165,16 @@ district_EOE_pokemon_science = {
 	resources = {
 		category = planet_districts_hab_research
 		cost = {
-			minerals = 300
+			minerals = 600
+			exotic_gases = 20
 		}
 		upkeep = {
-			energy = 2
+			energy = 3
 		}
 	}
 
 	planet_modifier = {
-		planet_housing_add = 3
+		planet_housing_add = 1
 	}
 	
 	triggered_planet_modifier = {
@@ -1183,7 +1183,7 @@ district_EOE_pokemon_science = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_researcher_add = 3
+			job_researcher_add = 2
 		}
 	}
 	triggered_planet_modifier = {
@@ -1295,7 +1295,7 @@ district_EOE_pokemon_science = {
 }
 
 district_EOE_pokemon_battle_field = {
-	base_buildtime = 240
+	base_buildtime = 300
 	is_capped_by_modifier = no
 
 	show_on_uncolonized = {
@@ -1352,16 +1352,16 @@ district_EOE_pokemon_battle_field = {
 			job_EOE_trainer_add = 1
 		}
 	}
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = { has_technology = tech_hyper_entertainment_forum }
-		}
-		modifier = {
-			planet_housing_add = 1
-			job_duelist_add = 1
-		}
-	}
+	# triggered_planet_modifier = {
+	# 	potential = {
+	# 		exists = owner
+	# 		owner = { has_technology = tech_hyper_entertainment_forum }
+	# 	}
+	# 	modifier = {
+	# 		planet_housing_add = 1
+	# 		job_duelist_add = 1
+	# 	}
+	# }
 	
 	triggered_planet_modifier = {
 		potential = {
@@ -1886,7 +1886,7 @@ district_EOE_arcology_administrative = {
 			has_planet_flag = EOE_building_20_g_finished
 		}
 		modifier = {
-			planet_jobs_unity_produces_mult = 0.05
+			planet_jobs_unity_produces_mult = 0.02
 		}
 	}
 	triggered_planet_modifier = {
@@ -1987,7 +1987,7 @@ district_EOE_arcology_science = {
 			has_planet_flag = EOE_building_20_f_finished
 		}
 		modifier = {
-			planet_researchers_produces_mult = 0.05
+			planet_researchers_produces_mult = 0.02
 		}
 	}
 	triggered_desc = {
@@ -2067,7 +2067,7 @@ district_EOE_arcology_religious = {
 			has_planet_flag = EOE_building_20_g_finished
 		}
 		modifier = {
-			planet_jobs_unity_produces_mult = 0.05
+			planet_jobs_unity_produces_mult = 0.02
 		}
 	}
 	triggered_planet_modifier = {

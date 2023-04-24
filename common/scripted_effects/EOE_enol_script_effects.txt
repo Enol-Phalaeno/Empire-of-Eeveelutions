@@ -3,7 +3,7 @@ EOE_battle_big_rewards = {
 	owner = {
 		random_list = {
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_1
 				}
@@ -12,7 +12,7 @@ EOE_battle_big_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_2
 				}
@@ -21,7 +21,7 @@ EOE_battle_big_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_3
 				}
@@ -30,7 +30,7 @@ EOE_battle_big_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_4
 				}
@@ -39,7 +39,7 @@ EOE_battle_big_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_5
 				}
@@ -56,7 +56,7 @@ EOE_battle_medium_rewards = {
 	owner = {
 		random_list = {
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_1
 				}
@@ -65,7 +65,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_2
 				}
@@ -74,7 +74,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_3
 				}
@@ -82,7 +82,7 @@ EOE_battle_medium_rewards = {
 				add_research_option = tech_EOE_fairy_beam 
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_4
 				}
@@ -91,7 +91,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			1 = { 
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech9_5
 				}
@@ -100,7 +100,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_1
 				}
@@ -109,7 +109,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_2
 				}
@@ -118,7 +118,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_3
 				}
@@ -127,7 +127,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_4
 				}
@@ -136,7 +136,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_5
 				}
@@ -145,7 +145,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_6
 				}
@@ -154,7 +154,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_7
 				}
@@ -163,7 +163,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_8
 				}
@@ -172,7 +172,7 @@ EOE_battle_medium_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_9
 				}
@@ -189,7 +189,7 @@ EOE_battle_small_rewards = {
 	owner = {
 		random_list = {
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_1
 				}
@@ -198,7 +198,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_2
 				}
@@ -207,7 +207,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_3
 				}
@@ -216,7 +216,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_4
 				}
@@ -225,7 +225,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_5
 				}
@@ -234,7 +234,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_6
 				}
@@ -243,7 +243,7 @@ EOE_battle_small_rewards = {
 			
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_7
 				}
@@ -252,7 +252,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_8
 				}
@@ -261,7 +261,7 @@ EOE_battle_small_rewards = {
 				
 			}
 			5 = {
-				modifier = EOE_{
+				modifier = {
 					factor = 0
 					has_country_flag = EOE_tech7_9
 				}

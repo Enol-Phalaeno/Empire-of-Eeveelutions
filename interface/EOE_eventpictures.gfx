@@ -211,11 +211,6 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 	}
 	spriteType = {
-		name = "GFX_evt_EOE_cthugha_defeated"
-		texturefile = "gfx/event_pictures/GFX_evt_EOE_cthugha_defeated.png"
-		masking_texture = "gfx/interface/situation_log/event_mask.dds"
-	}
-	spriteType = {
 		name = "GFX_evt_EOE_trap"
 		texturefile = "gfx/event_pictures/GFX_evt_EOE_trap.png"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"

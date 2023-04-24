@@ -1,20 +1,14 @@
-TODO List:
+图标炸了：district_rw_hive_EOE，Job EOE_assimilation
 
-Immediate: 
+本地化缺失：building_hive_cluster_EOE_desc，d_EOE_ghost_portal，d_EOE_ghost_portal_desc
 
-* Rebalance remaining non-legendary pokemon weapons for 3.6 (Ongoing and continual)
-* Fix any remaining Localization issues. (Ongoing and continual)
-* Bug Fixes (Ongoing and continual)
-* Fix breed/assemble abuse by adding the condition that it can only be activated if availble jobs and unemployment are both above zero. Or making it like clone army/children of zero four.
-* New pokemon weapon type: Unkown Strike Fighter. Also find a use for it.
-* Finish the Steel Type Mons thing for AIs.
-* New questline for finding Hezi if you don't have contact with the curators within 20 years of Fictional Person, or if you don't find Hezi yourself within 10 years of contact of curators.
-* New Hezi and new Okra content.
+未知错误：Error: "Unexpected token: from, near line: 252" in file: "common/diplo_phrases/EOE_diplo_phrases.txt" near line: 257
 
-Future:
+EOEbuliding.25，宝可梦理想城的文案还没写好，鸽了
 
-* Begin Eeveelution Keepers
-* Refine Eeveelution Trainers further
-  * Find non-legendary pokeship models
-  * Make current pokeships legendary (event-based) only. 
-* Lucario Rival Mid-Game Crisis for Pokemon Trainer Origin (Pokemon Trainer origin meets the Great Khan)
+
+errorlog里未知报错有点太多了，不止写的这一点，但是不想理了
+
+现在使用特质控制事件的话能不能把以前使用政体控制事件的遗留部分删掉
+
+月： 打算给梦幻加隐身，给创造者事件链的结局事件写个新星系，把一些同人文塞到核子的面板里。检查图标的时候发现环开蜂巢的图标没问题但是功能有问题

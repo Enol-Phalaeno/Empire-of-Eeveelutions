@@ -1,21 +1,11 @@
-sc_black_drawf = {
-	class			= black_drawf
-	planet			= { key = pc_black_drawf }
-	spawn_odds		= 0
-	num_planets	= { min = 4 max = 10 }
-
-	pc_continental	= { spawn_odds = 0.1 }
-	pc_desert		= { spawn_odds = 0.1 }
-	pc_tropical		= { spawn_odds = 0.1 }
-	pc_arid		= { spawn_odds = 0.1 }
-	pc_ocean		= { spawn_odds = 0.1 }
-	pc_tundra		= { spawn_odds = 0.1 }
-	pc_arctic		= { spawn_odds = 0.1 }
-	pc_alpine		= { spawn_odds = 0.1 }
-	pc_savannah		= { spawn_odds = 0.1 }
-	is_environmental_hazard = yes
-	modifier = {
-		ships_upkeep_mult = 0.25
-		ship_disengage_chance_reduction = 1
-	}
-}
+# sc_black_drawf = {
+# 	class			= black_drawf
+# 	planet			= { key = pc_black_drawf }
+# 	spawn_odds		= 0
+# 	icon_scale		= 1.0
+# 	is_environmental_hazard = yes
+# 	modifier = {
+# 		ships_upkeep_mult = 0.25
+# 		ship_disengage_chance_reduction = 1
+# 	}
+# }

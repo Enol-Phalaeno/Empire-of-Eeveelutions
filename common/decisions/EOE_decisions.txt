@@ -428,16 +428,22 @@ decision_EOE_use_pokemon_i = {
 		while = {
 			limit = {
 				any_owned_pop = {
-					species = {
-						is_robotic = yes
-					}
+					OR = {
+						has_trait = trait_mechanical
+						species = {
+							is_robotic = yes
+						}
+					}	
 				}
 			}
 			random_owned_pop = {
 				limit = {
-					species = {
-						is_robotic = yes
-					}
+					OR = {
+						has_trait = trait_mechanical
+						species = {
+							is_robotic = yes
+						}
+					}	
 				}
 				kill_pop = yes
 				owner = {

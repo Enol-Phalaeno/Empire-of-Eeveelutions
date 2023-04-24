@@ -318,7 +318,7 @@ EOE_tree_manipulator = {
 		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 	planet_modifier = {
-		planet_jobs_produces_mult = 0.2
+		planet_jobs_produces_mult = 0.025
 		planet_max_districts_add = 2
 	}
 	weight = {

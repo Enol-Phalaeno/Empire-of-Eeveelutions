@@ -411,6 +411,7 @@ country_event = {
 						is_planet_class = pc_habitat
 					}
 					add_district = district_hab_mining
+					remove_building = building_hab_capital
 					add_building = building_EOE_trainer_department
 					set_owner = root
 					add_modifier = {
@@ -725,7 +726,10 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_a
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			OR = {
+				is_planet_class = pc_EOE_pokemon_gaia
+				is_planet_class = pc_EOE_city
+			}
 		}
 		name = EOEbuliding.20.a
 		custom_tooltip = EOEbuliding.20.a.tooltip
@@ -737,7 +741,10 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_b
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			OR = {
+				is_planet_class = pc_EOE_pokemon_gaia
+				is_planet_class = pc_EOE_city
+			}
 		}
 		name = EOEbuliding.20.b
 		custom_tooltip = EOEbuliding.20.b.tooltip
@@ -761,7 +768,7 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_d
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			is_planet_class = pc_EOE_pokemon_gaia			
 		}
 		name = EOEbuliding.20.d
 		custom_tooltip = EOEbuliding.20.d.tooltip
@@ -785,7 +792,10 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_f
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			OR = {
+				is_planet_class = pc_EOE_pokemon_gaia
+				is_planet_class = pc_EOE_city
+			}
 		}
 		name = EOEbuliding.20.f
 		custom_tooltip = EOEbuliding.20.f.tooltip
@@ -797,7 +807,10 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_g
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			OR = {
+				is_planet_class = pc_EOE_pokemon_gaia
+				is_planet_class = pc_EOE_city
+			}
 		}
 		name = EOEbuliding.20.g
 		custom_tooltip = EOEbuliding.20.g.tooltip
@@ -849,7 +862,10 @@ planet_event = {
 			NOT = {
 				has_planet_flag = EOE_building_20_k
 			}
-			is_planet_class = pc_EOE_pokemon_gaia
+			OR = {
+				is_planet_class = pc_EOE_pokemon_gaia
+				is_planet_class = pc_EOE_city
+			}
 		}
 		name = EOEbuliding.20.k
 		custom_tooltip = EOEbuliding.20.k.tooltip

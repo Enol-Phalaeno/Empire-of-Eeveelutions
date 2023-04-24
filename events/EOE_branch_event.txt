@@ -6061,7 +6061,7 @@ fleet_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_has_known_electromagnetic_chaotic
-						NOT = { has_country_flag = EOE_searched_electromagnetic_chaotic }
+						NOT = { has_technology = tech_boson_photon_field_generator }
 					}
 				}
 				destroy_fleet = this
@@ -6098,4 +6098,99 @@ country_event = {
 	after = {
 		destroy_fleet = event_target:EOE_destroyed_fleet
 	}
+}
+country_event = {
+	id = EOE_branch.152
+	is_triggered_only = yes
+	title = EOE_branch.152.name #成功
+	desc = EOE_branch.152.desc #成功研发应对之策
+	picture = GFX_evt_EOE_no_video_feed
+	show_sound = event_default
+	immediate = {
+		give_technology = { tech = EOE_boson_photon_field message = no } #给进入必须的科技
+	}
+	option = {
+		name = EOE_branch.152.a #祝贺研究组，现在该进去仔细研究了
+		hidden_effect = {
+			event_target:necrozma_archaeological_sites = { create_archaeological_site = site_necrozma_systeam }
+		}
+	}
+}
+fleet_event = { 
+	id = EOE_branch.153
+	is_triggered_only = yes
+	title = EOE_branch.153.name
+	desc = EOE_branch.153.desc #纳米探测机投放
+	picture = GFX_evt_alien_ruins
+	show_sound = "event_dig_site"
+	archaeology = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = "EOE_branch.153.a" #继续探索
+		small_artifact_reward = yes
+	} 
+}
+fleet_event = { 
+	id = EOE_branch.154
+	is_triggered_only = yes
+	title = EOE_branch.154.name
+	desc = EOE_branch.154.desc #古文明记录
+	picture = GFX_evt_alien_ruins
+	show_sound = "event_dig_site"
+	archaeology = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = "EOE_branch.154.a" #继续探索
+		add_resource = {
+			rare_crystals = 500
+		}
+		small_artifact_reward = yes
+	} 
+}
+fleet_event = { 
+	id = EOE_branch.155
+	is_triggered_only = yes
+	title = EOE_branch.155.name
+	desc = EOE_branch.155.desc #清理完了研究所的废墟
+	picture = GFX_evt_alien_ruins
+	show_sound = "event_dig_site"
+	archaeology = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = { 
+		from = { set_site_progress_locked = no } 
+	}
+	
+	option = {
+		name = "EOE_branch.155.a" #继续探索
+		medium_artifact_reward = yes
+		hidden_effect = {
+			spawn_megastructure = {
+				type = luozima_0
+				planet = necrozma_archaeological_sites
+				coords_from = this
+				orbit_distance = 10
+				orbit_angle = 0
+			}
+		}
+	} 
 }

@@ -316,7 +316,6 @@ building_hive_confluence_EOE = {
 }
 
 building_EOE_trainer_department = {
-	base_buildtime = @b2_time
 	capital = yes
 	can_build = no
 	can_demolish = no
@@ -325,9 +324,12 @@ building_EOE_trainer_department = {
 	position_priority = 0
 
 	category = government
+	icon = building_capital
 
 	potential = {
-		always = no
+		uses_habitat_capitals = yes
+		exists = owner
+		owner = { is_fallen_empire = no }
 	}
 	
 	planet_modifier = {

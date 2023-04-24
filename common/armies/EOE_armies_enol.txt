@@ -226,7 +226,9 @@ EOE_mew_fleet = {
 	resources = {
 		category = armies
 		cost = {
-			food = 7500
+			food = 12500
+			alloys = 1000
+			minerals = 1000
 		}
 	}
 	potential = {

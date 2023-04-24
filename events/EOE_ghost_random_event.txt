@@ -2558,6 +2558,7 @@ ship_event = {
 					which = class_4_singularity_build_count
 					value = 1
 				}
+				set_country_flag = class_4_singularity_can_build
 			}
 		}
 	}
@@ -5381,6 +5382,9 @@ ship_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_ferrothorn
+						not = {
+							has_country_flag = EOE_missed
+						}
 					}
 				}
 				multiply_variable = {
@@ -5457,6 +5461,9 @@ ship_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_ferrothorn
+						not = {
+							has_country_flag = EOE_missed
+						}
 					}
 				}
 				subtract_variable = {
@@ -5799,6 +5806,9 @@ ship_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_ferrothorn
+						not = {
+							has_country_flag = EOE_missed
+						}
 					}
 				}
 				multiply_variable = {
@@ -5873,6 +5883,9 @@ ship_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_ferrothorn
+						not = {
+							has_country_flag = EOE_missed
+						}
 					}
 				}
 				multiply_variable = {
@@ -6235,6 +6248,9 @@ ship_event = {
 				limit = {
 					owner = {
 						has_country_flag = EOE_ferrothorn
+						not = {
+							has_country_flag = EOE_missed
+						}
 					}
 				}
 				multiply_variable = {

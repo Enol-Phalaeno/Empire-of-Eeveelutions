@@ -4,7 +4,7 @@ tech_mega_evolution = {
 	area = society
 	category = { biology }
 	tier = 5
-	prerequisites = { "tech_genetic_resequencing" }
+	prerequisites = {  }
 	weight = 0
 	icon = tech_mega_evolution
 
@@ -21,6 +21,7 @@ tech_mega_evolution = {
 		any_owned_pop = {
 			pop_has_trait = trait_directed_evolution
 		}
+		has_tradition = tr_genetics_finish
 	}
 
 	weight_modifier = {

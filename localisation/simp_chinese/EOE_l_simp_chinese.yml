@@ -11,6 +11,8 @@ tech_endless_evolution_desc:0"随着对基因本质的深入认知，我们终�
 tech_mega_evolution:0"青出于蓝"
 tech_mega_evolution_desc:0"脱胎于百万年前的先贤，我们如今的灵能生物科技已经超越了当年的创造者。对基因与灵能本质的研究将为我们带来无穷的可能性。"
 tech_mega_evolution_modifier_desc:0"$species_trait_points_add$: $POINTS|0=+$\n物种修饰特殊项目花费：§G-25%§!"
+tech_boson_photon_field_generator:0"玻色子光子场发生器"
+tech_boson_photon_field_generator_desc:0"这项实验性的科技可以精确的调制光子的相对论质量，以此精确地将一定范围空间内的电磁相互作用强度控制在需要的程度，甚至能够用来生成极强的玻色子光子场以生成硬光材料。（虽然需要很多能量来维持其存在）"
 
 
 tech_grass_type_Wild_growth:0"狂野生长"

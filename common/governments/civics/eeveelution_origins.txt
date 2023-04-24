@@ -38,11 +38,10 @@ origin_EOE_pokemon_trainer = {
 	initializers = { EOE_pokemon_system_initializer }
 	max_once_global = yes
 	possible = {
-		ethics = { NOT = { value = ethic_gestalt_consciousness } }
-		civics = { NOR = { value = civic_fanatic_purifiers value = civic_EOE_steel_type_trainer } }
-	}
-
-	description = origin_EOE_pokemon_trainer_effects
+		always = no
+		ethics = { NOT = { value = ethic_gestalt_consciousness } value = ethic_gestalt_consciousness}
+	} 
+	description = origin_EOE_pokemon_trainer_effects_remove
 	flags = { custom_start_screen }
 
 	advanced_start = yes

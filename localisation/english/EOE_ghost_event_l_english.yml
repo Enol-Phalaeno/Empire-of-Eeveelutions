@@ -451,7 +451,7 @@ EOE_ghost.42.c.tooltip:0" A machine gun inspired by the Pokemon move that has th
 EOE_ghost.42.d:0 "Leaf Blade" 
 EOE_ghost.42.d.tooltip:0 "A normal leaf blade, but augmented by strong psionic power. Powerful enough to cut through chemical bonds.\n§LGrass-type power§H50§! MP§B20§! accuracy§Y100%§! crit hit rate§R30%§!§!"
 EOE_ghost.42.e:0 "Double Kick" 
-EOE_ghost.42.e.tooltip:0" A flying kick attack with gathered psionic power on the hind paws. A classical and basic move used for physical exercise.\n§L A jump to the sky turns to a rider kick.§!\n§LFighing-type contact power§H40§! MP§B20§! accuracy§Y95%§! crit hit rate§R10%§!§!"
+EOE_ghost.42.e.tooltip:0" A flying kick attack with gathered psionic power on the hind paws. A classical and basic move used for physical exercise.\n§L A jump to the sky turns to a rider kick.§!\n§LFighing-type contact power§H20§! MP§B20§! accuracy§Y95%§! crit hit rate§R10%§!§!"
 EOE_ghost.42.f:0 "Giga Drain" 
 EOE_ghost.42.f.tooltip:0 "A generalized move developed based on the phenomenon of psionic penetration. capable of drawing energy out of the opponent's body.\n§LGrass-type power§H20§! MP§B0§! accuracy§Y100%§! crit hit rate§R5%§!§!"
 EOE_ghost.42.g:0 "Synthesis" 

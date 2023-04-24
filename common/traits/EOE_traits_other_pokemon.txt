@@ -93,9 +93,9 @@ trait_EOE_type_advantage = {
 	modifier = {
 		planet_miners_alloys_produces_add = 1
 		planet_miners_minerals_upkeep_add = 1.5
-		planet_technician_energy_upkeep_add = 1
 		pop_environment_tolerance = 2
 		species_empire_size_mult = -0.8
+		planet_technician_energy_upkeep_add = 1
 	}
 	slave_cost = {
 		energy = 2500
