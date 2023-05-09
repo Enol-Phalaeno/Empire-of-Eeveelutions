@@ -426,8 +426,9 @@ leadereevent.80.b:0"I don't want to offend the curator for this."
 leadereevent.81.name:0"Angel descends by my side"
 leadereevent.81.desc:0"Just now, The defense forces on the [Root.Capital.GetName] reported an unauthorized orbital airdrop. After identificaing the curator's signal, they permit the airdrop capsule to land on the edge of a city, and then sent a rescue team to pick it up. "
 leadereevent.81.a:0"It seems she comes on time."
-leadereevent.82.name:0"Wow, the smell of familiar homeland, cute Eeveelutions everywhere. My adventure is worthwhile.\n Hello, I'm Okra, one of the classmates of Hezi, and want to work for the[Root.GetName]。I also bring some technical materials from curators. "
-leadereevent.82.a:0"Welcome to home."
+leadereevent.82.name:0"Homecoming"
+leadereevent.82.desc:0"Wow, the smell of familiar homeland, cute Eeveelutions everywhere. My adventure is worthwhile.\n Hello, I'm Okra, one of the classmates of Hezi, and want to work for the[Root.GetName]。I also bring some technical materials from curators. "
+leadereevent.82.a:0"Welcome home."
 
 
 leadereevent.83.name:0"Anxious Mother"
