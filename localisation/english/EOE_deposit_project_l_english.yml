@@ -6,7 +6,7 @@
  d_EOE_arid_highlands:0 "Arid Highlands"
  d_EOE_arid_highlands_desc:1 "An elevated, dry ecoregion bearing sparse vegetation of desert grasses and scrubs."
  d_EOE_hot_springs:0 "Hot Springs"
- d_EOE_hot_springs_desc:1 "Groundwater heated by geothermal processes steams from the surface of these springs."
+ d_EOE_hot_springs_desc:1 "Groundwater heated by geothermal processes steams form the surface of these springs."
  d_EOE_searing_desert:0 "Searing Desert"
  d_EOE_searing_desert_desc:1 "With little precipitation, extreme temperatures and limited vegetation, these sandy deserts are hostile to most forms of life."
  d_EOE_geothermal_vent:0 "Geothermal Vents"

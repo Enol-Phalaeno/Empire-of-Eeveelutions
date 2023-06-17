@@ -6,7 +6,7 @@ name_list_EEVEELUTION:0 "Eeveelution"
 
 #technology
 tech_Gender_Balance:0"Gender Balance"
-tech_Gender_Balance_desc:0"As we all know, female Eeveelutions are extremely efficient reproductive machines. They can produce enough offsprings to make the population of Eeveelutions keep growing even when the ratio of male to female is 7:1, compete with the irrational setting left by the Creators. Now, Eeveelutions can balance their sex ratio by promoting the use of drugs that can selectively inactivate some male gametes containing Y chromosome, break the \"7:1 curse\" in the blood, release the full potential of its own race in terms of proliferation and reproduction.\n This will also put an end to the custom of group marriage caused by the uneven sex ratio and make it possible to promote monogamy, improve the happiness of citizens and reduce sexual violence. "
+tech_Gender_Balance_desc:0"As we all know, female Eeveelutions are extremely efficient reproductive machines. They can produce enough offsprings to make the population of Eeveelutions keep growing even though the ratio of male to female is 7:1, thanks to the irrational setting left by the Creators. Now, Eeveelutions can balance their sex ratio by promoting the use of drugs that can selectively inactivate some male gametes containing Y chromosome, break the \"7:1 curse\" in the blood, release the full potential of its own race in terms of proliferation and reproduction.\n This will also put an end to the custom of group marriage caused by the uneven sex ratio and make it possible to promote monogamy, improve the happiness of citizens and reduce sexual violence. "
 #origin
 origin_protoss_shattered_ring:0 "Shattered Ring(Eeveelutions)"
 origin_protoss_shattered_ring_DESC:0 "This civilization inhabits a Ring World built by unknown forerunners. If it can be understood and fully repaired it will grant them great power."
@@ -14,9 +14,7 @@ origin_tooltip_protoss_shattered_ring_effects:1 "§YThis is the shattered ring o
 
 #startsystem
 protoss_shattered_ring_start_NAME:0 "Shattered Ring(Eeveelutions)"
-protoss_shattered_ring_start_DESC:0 "This will be the start system when choose Shattered Ring (Eeveelutions)."
-
-
+protoss_shattered_ring_start_DESC:0 "This will be the start system when Shattered Ring (Eeveelutions) is chosen."
 
 #compsets
 
@@ -27,9 +25,9 @@ gov_EOE_plutocratic_oligarchy:0 "$gov_plutocratic_oligarchy$"
 gov_EOE_plutocratic_oligarchy_desc:0 "$gov_plutocratic_oligarchy_desc$"
 
 tech_endless_evolution:0"Endless Evolution"
-tech_endless_evolution_desc:0"With a deeper understanding of genes, we will eventually stimulate all our potential."
+tech_endless_evolution_desc:0"With a deeper understanding of genes, we will eventually unlock all our potential and more."
 tech_mega_evolution:0"Mega Evolution"
-tech_mega_evolution_desc:0"Born out of our ancestors millions of years ago, our psionic biotechnology has surpassed our creators. The study of the nature of genes and psionics will bring us endless possibilities."
+tech_mega_evolution_desc:0"Born of our ancestors millions of years ago, our psionic biotechnology has surpassed our creators. The study of the nature of genes and psionics will bring us endless possibilities."
 tech_mega_evolution_modifier_desc:0"$species_trait_points_add$: $POINTS|0=+$\nGene modification project cost:§G-25%§!"
 
 tech_grass_type_Wild_growth:0"Wild growth"
@@ -37,15 +35,15 @@ tech_grass_type_Wild_growth_desc:0"In depth study of the nature of genes allows 
 tech_grass_type_Wild_growth_1:0"Wild growth"
 tech_grass_type_Wild_growth_1_desc:0"In depth study of the nature of genes allows us to significantly increase the birth rate of the population, while minimizing the mortality caused by disease and aging."
 tech_EOE_psionic_application:0 "Application of psionics"
-tech_EOE_psionic_application_desc:0 "The application of psionic system on the fleet makes the shield works more efficiently and helps its weapon energy to penetrate some a little part of enemy's armor and shield."
+tech_EOE_psionic_application_desc:0 "The application of psionic systems into the fleet makes the shield operate more efficiently, and enables its weapon energy to penetrate some of the enemy's armor and shields."
 tech_grass_type_Wild_growth_2:0"Wild growth"
-tech_grass_type_Wild_growth_2_desc:0"In depth study of the nature of genes allows us to significantly increase the birth rate of the population, while minimizing the mortality caused by disease and aging."
+tech_grass_type_Wild_growth_2_desc:0"Our in-depth study of the nature of genes allows us to significantly increase the birth rate of the population, while minimizing the mortality caused by disease and aging."
 EOE_mental_omega:0 "Mental Omega"
-EOE_mental_omega_desc:0 "If we use the planet-killer weapon platform to power this "shroud ball", it is possible to create a super weapon that can control the minds of all intelligent creatures on the entire planet in one blow."
+EOE_mental_omega_desc:0 "If we use the planet-killer weapon platform to power this "Shroud Ball", it is possible to create a super weapon that can control the minds of all intelligent creatures on the entire planet in one blow."
 
 #deposit
 d_EOE_ringworld_Ancient_ruins_1:0 "Ancient ruins"
-d_EOE_ringworld_Ancient_ruins_1_desc:0 "Damaged machinery and other debris prevent workers from taking use of the entire section. "
+d_EOE_ringworld_Ancient_ruins_1_desc:0 "Damaged machinery and other debris prevent workers from making use of the entire section. "
 d_EOE_ringworld_Ancient_ruins_2:0 "$d_EOE_ringworld_Ancient_ruins_1$"
 d_EOE_ringworld_Ancient_ruins_2_desc:0 "$d_EOE_ringworld_Ancient_ruins_1_desc$"
 d_EOE_ringworld_Broken_tunnel_1:0 "Broken tunnel"
@@ -57,9 +55,9 @@ d_EOE_ringworld_Broken_tunnel_3_desc:0 "$d_EOE_ringworld_Broken_tunnel_1_desc$"
 d_EOE_ringworld_ancient_tech_district:0 "Ancient Research Section"
 d_EOE_ringworld_ancient_tech_district_desc:0 "This part of the ringworld underground structure once belonged to an ancient research section. In the more than 200 years of waiting for the ringworld orbit to return to normal, we have built our own scientific research base relying on the dilapidated facilities here. Leaders and scientists are here to monitor the state of the sanctuary and prepare for the revival of our civilization."
 d_EOE_ringworld_ancient_tech_district_1:0 "Ancient scientific research section"
-d_EOE_ringworld_ancient_tech_district_1_desc:0 "This part of the underground structure around the world once belonged to an ancient scientific research section. After cleaning and repairing it, we can build our own scientific research base relying on the dilapidated facilities here."
+d_EOE_ringworld_ancient_tech_district_1_desc:0 "This part of the underground structure around the world once belonged to an ancient scientific research section. After cleaning and repairing it, we can build our own scientific research base out of the dilapidated facilities here."
 d_EOE_ringworld_Refuge_City:0"Refuge City"
-d_EOE_ringworld_Refuge_City_desc:0"Relying on the ancient energy system, we built underground farms in the ringworld underground structure to support a part of the population. The food produced by these farms played a crucial role when most of the population were waiting for the production of the pokeball. Now, these underground farms can not only continue to play their original role, but also become the spiritual symbol of our civilization's victory over destiny."
+d_EOE_ringworld_Refuge_City_desc:0"Relying on the ancient energy system, we built underground farms in the ringworld underground structure to support a part of the population. The food produced by these farms played a crucial role when most of the population before the pokeball was invented. Now, these underground farms can not only continue to play their original role, but also become the spiritual symbol of our civilization's victory over destiny."
 
 
 
@@ -77,14 +75,14 @@ PLANET_KILLER_EOE:1 "Master Ball Core"
 PLANET_KILLER_EOE_ACTION:0 "Catch"
 PLANET_KILLER_EOE_DESC:0 "This super weapon can control the minds of all intelligent creatures on the entire planet in one strike."
 FLEETORDER_DESTROY_PLANET_WITH_PLANET_KILLER_EOE:0 "Prepare to catch $PLANET|Y$"
-MESSAGE_DESC_FOR_PLANET_KILLER_EOE:0 "was catched by"
+MESSAGE_DESC_FOR_PLANET_KILLER_EOE:0 "was captured by"
 
 #opinion_modifier
 triggered_opinion_trait_extremely_cute:0"Extremely Cute"
 triggered_eoe_opinion_of_eoe:0"Eeveelution Empire"
 triggered_negative_opinion_of_evassimilators:0"Eevee Assimilator"
-triggered_evassimilators_positive_opinion_of_others:0 "Yummy"
-triggered_evassimilators_negative_opinion_of_others:0 "Can not eat"
+triggered_evassimilators_positive_opinion_of_others:0 "Delicious"
+triggered_evassimilators_negative_opinion_of_others:0 "Inedible"
 
 #gov,civic,auth
 RT_NAVIGATOR:0 "Navigator"
@@ -96,8 +94,8 @@ civic_tooltip_scientific_faith_effects:0 "£building£ §YCapital Buildings§! r
 gov_eeveelutions_assimilator:0"Eevee Assimilator"
 gov_eeveelutions_assimilator_desc:0"Eevee Assimilators allow to use other intelligent life as raw materials to expand their own ethnic groups."
 civic_eeveelutions_assimilator:0"Eevee Assimilator"
-civic_eeveelutions_assimilator_desc:0"This Eeveelution species has transformed its \"parasitic seeds\" move to make the nano viruses it secretes no longer plunder the target's biomass, but reshape the target's body from the molecular level. After the fertilized egg carrying parasitic seeds is implanted into the thinking organ of an intelligent organism, the Nanovirus will use the fertilized egg as a template to transform the ready-made organ of the target. The host will eventually become an Eevee, retaining most of it's previous personality and memory while showing the behavior of a young Eevee."
-civic_tooltip_eeveelutions_assimilator_effects:0"Start the game with the ability to §YAssimilate§! organics as eevees\nAssimilating an organic £pop£ Pop generates a small amount of £unity£ §YUnity§! and £society£ §YSociety Research§!\n The assimilated will inherit the previous traits while acquiring the unique traits of Eeveelutions \nHas the §Y\"Assimilation\"§! casus belli on all other empires\n Decreased §YOpinion§! for most other empires."
+civic_eeveelutions_assimilator_desc:0"This Eeveelution species has transformed its \"parasitic seeds\" move to make the nanoviruses it secretes no longer plunder the target's biomass, but instead reshape the target's body from the molecular level. After the fertilized egg carrying parasitic seeds is implanted into the thinking organ of an intelligent organism, the Nanovirus will use the fertilized egg as a template to transform the ready-made organ of the target. The host will eventually become an Eevee, retaining most of it's previous personality and memory while showing the behavior of a young Eevee."
+civic_tooltip_eeveelutions_assimilator_effects:0"Gain the ability to §YAssimilate§! organics as eevees.\nAssimilating an organic £pop£ Pop generates a small amount of £unity£ §YUnity§! and £society£ §YSociety Research§!\n The assimilated will inherit the host's habitability preferences while acquiring the unique traits of base-species Eeveelutions \nHas the §Y\"Assimilation\"§! total war casus belli on all other empires\n Decreased §YOpinion§! for most other empires."
 casus_belli_cb_evsublimation:0"Sublimation"
 war_goal_wg_evassimilation:0"$war_goal_wg_assimilation$"
 war_goal_wg_evassimilation_desc:0"$war_goal_wg_assimilation_desc$"
@@ -110,7 +108,7 @@ EOE_citizenship_assimilation_tooltip:0 "Pops of this species are §Yaltered§! o
 EOE_citizenship_assimilation_tooltip_delayed:0 "§LTransformed \"parasitic seeds\" move no longer plunder the target's biomass, but the nano viruses it secretes reshape the target's body from the molecular level. After the fertilized egg carrying parasitic seeds is implanted into the thinking organ of an intelligent organism, the Nanovirus will use the fertilized egg as a template to transform the ready-made organ of the target. The host will eventually become an Eevee, retaining most of it's previous personality and memory while showing the behavior of a young Eevee.§!\n The effect of this Citizenship is roughly the same as the original assimilation, but the assimilated population will retain its original $HABITABILITY$ when becoming Eevee."
  job_EOE_assimilation:0 "Undergoing Assimilation"
  job_EOE_assimilation_plural:0 "$job_assimilation$"
- job_EOE_assimilation_desc:0 "This pop is being integrated into our collective."
+ job_EOE_assimilation_desc:0 "This pop is being converted into an Eeveelution."
 auth_EOE_oligarchic:0 "Oligarchic(Eevees)"
 auth_EOE_oligarchic_desc:0"Same as the normal oligarchic.Choose this authority to experience some story events about the origin of Eeveelutions."
 auth_EOE_imperial:0 "Imperial(Eevees)"
