@@ -45,7 +45,7 @@ civic_eeveelutions_assimilator = {
 		}
 	}
 	pickable_at_start = yes 
-	modification = yes
+	modification = no
 	random_weight = {
 		base = 0
 	}
@@ -110,7 +110,7 @@ civic_EOE_steel_type_trainer = {
 	# 	}
 	# }
 	random_weight = {
-		base = 0
+		base = 500
 	}
 	
 }
