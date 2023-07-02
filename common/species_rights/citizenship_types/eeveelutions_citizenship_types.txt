@@ -36,7 +36,7 @@ EOE_citizenship_assimilation = {
 	}
 
 	ai_will_do = {
-		factor = 100
+		factor = 9001 #AI will now always choose this over anything else.
 		modifier = {
 			factor = 0
 			from = {
